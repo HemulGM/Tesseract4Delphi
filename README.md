@@ -5,6 +5,8 @@ Tesseract4Delphi is based in the [TTesseractOCR4 project](https://github.com/r1m
 
 The _bin32_ and _bin64_ directories contain the Windows binaries of Tesseract 5.5.2. 
 
+The _assets\tessdata_ directory contains the models for the English language. For additional languages and trained models visit the [Tessdata repository](https://github.com/tesseract-ocr/tessdata).
+
 It's required to install the Microsoft Visual C++ 2017 Redistributable package [available here](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-supported-redistributable-version).
 
 Tesseract4Delphi was developed and tested on Delphi 13, Delphi 7 and Lazarus 4.4/FPC 3.2.2. It Delphi and Lazarus components.
@@ -15,6 +17,8 @@ Tesseract4Delphi was developed and tested on Delphi 13, Delphi 7 and Lazarus 4.4
 
 ## Links
 * [Developer Forums](https://www.briskbard.com/forum)
+* [Tesseract project](https://github.com/tesseract-ocr/tesseract)
+* [Tessdata repository](https://github.com/tesseract-ocr/tessdata)
 
 ## Support
 If you find this project useful, please consider making a donation.
