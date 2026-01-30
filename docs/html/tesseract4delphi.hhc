@@ -1,0 +1,4293 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<meta name="GENERATOR" content="PasDoc 0.17.0.snapshot">
+</head><body>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Units">
+<param name="Local" value="AllUnits.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="uLeptonicaBox">
+<param name="Local" value="uLeptonicaBox.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Classes">
+<param name="Local" value="uLeptonicaBox.html#@Classes">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TLeptonicaBox">
+<param name="Local" value="uLeptonicaBox.TLeptonicaBox.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uLeptonicaBox.TLeptonicaBox.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FBox">
+<param name="Local" value="uLeptonicaBox.TLeptonicaBox.html#FBox">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uLeptonicaBox.TLeptonicaBox.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uLeptonicaBox.TLeptonicaBox.html#Initialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Box">
+<param name="Local" value="uLeptonicaBox.TLeptonicaBox.html#Box">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uLeptonicaBox.TLeptonicaBox.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="GetInitialized">
+<param name="Local" value="uLeptonicaBox.TLeptonicaBox.html#GetInitialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="DestroyBox">
+<param name="Local" value="uLeptonicaBox.TLeptonicaBox.html#DestroyBox">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uLeptonicaBox.TLeptonicaBox.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uLeptonicaBox.TLeptonicaBox.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uLeptonicaBox.TLeptonicaBox.html#Destroy">
+</object>
+</ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Types">
+<param name="Local" value="uLeptonicaBox.html#@Types">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TLeptonicaBoxArray">
+<param name="Local" value="uLeptonicaBox.html#TLeptonicaBoxArray">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="uLeptonicaBoxArray">
+<param name="Local" value="uLeptonicaBoxArray.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Classes">
+<param name="Local" value="uLeptonicaBoxArray.html#@Classes">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TLeptonicaBoxArray">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FBoxa">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#FBoxa">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#Initialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Boxa">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#Boxa">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Count">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#Count">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="GetInitialized">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#GetInitialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetCount">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#GetCount">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="DestroyBoxa">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#DestroyBoxa">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="CopyToArray">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#CopyToArray">
+</object>
+</ul>
+</ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="uLeptonicaConstants">
+<param name="Local" value="uLeptonicaConstants.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Classes">
+<param name="Local" value="uLeptonicaConstants.html#@Classes">
+</object>
+<ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Constants">
+<param name="Local" value="uLeptonicaConstants.html#@Constants">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="DEFAULT_REDUCTION_FACTOR">
+<param name="Local" value="uLeptonicaConstants.html#DEFAULT_REDUCTION_FACTOR">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="CRLF">
+<param name="Local" value="uLeptonicaConstants.html#CRLF">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="uLeptonicaLibFunctions">
+<param name="Local" value="uLeptonicaLibFunctions.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Classes">
+<param name="Local" value="uLeptonicaLibFunctions.html#@Classes">
+</object>
+<ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="uLeptonicaLoader">
+<param name="Local" value="uLeptonicaLoader.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Classes">
+<param name="Local" value="uLeptonicaLoader.html#@Classes">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TLeptonicaLoader">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FLibHandle">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#FLibHandle">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FLibLoaded">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#FLibLoaded">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FReRaiseExceptions">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#FReRaiseExceptions">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FSetCurrentDir">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#FSetCurrentDir">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FShowMessageDlg">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#FShowMessageDlg">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FStatus">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#FStatus">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FLastErrorMessage">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#FLastErrorMessage">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="SetCurrentDir">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#SetCurrentDir">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Status">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#Status">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#Initialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ReRaiseExceptions">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#ReRaiseExceptions">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LastErrorMessage">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#LastErrorMessage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ShowMessageDlg">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#ShowMessageDlg">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="GetInitialized">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#GetInitialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FreeLeptonicaLibrary">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#FreeLeptonicaLibrary">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialize">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#Initialize">
+</object>
+</ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Functions and Procedures">
+<param name="Local" value="uLeptonicaLoader.html#@FuncsProcs">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="DestroyGlobalLeptonicaLoader">
+<param name="Local" value="uLeptonicaLoader.html#DestroyGlobalLeptonicaLoader">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="uLeptonicaMiscFunctions">
+<param name="Local" value="uLeptonicaMiscFunctions.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Classes">
+<param name="Local" value="uLeptonicaMiscFunctions.html#@Classes">
+</object>
+<ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Functions and Procedures">
+<param name="Local" value="uLeptonicaMiscFunctions.html#@FuncsProcs">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="GetModulePath">
+<param name="Local" value="uLeptonicaMiscFunctions.html#GetModulePath">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="OutputDebugMessage">
+<param name="Local" value="uLeptonicaMiscFunctions.html#OutputDebugMessage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="CustomExceptionHandler">
+<param name="Local" value="uLeptonicaMiscFunctions.html#CustomExceptionHandler">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ShowErrorMessageDlg">
+<param name="Local" value="uLeptonicaMiscFunctions.html#ShowErrorMessageDlg">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="uLeptonicaPix">
+<param name="Local" value="uLeptonicaPix.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Classes">
+<param name="Local" value="uLeptonicaPix.html#@Classes">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TLeptonicaPix">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FPix">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#FPix">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#Initialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Pix">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#Pix">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="GetInitialized">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#GetInitialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="DestroyPix">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#DestroyPix">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Deskew">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#Deskew">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="DeskewImage">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#DeskewImage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SaveImageAsStream">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#SaveImageAsStream">
+</object>
+</ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Types">
+<param name="Local" value="uLeptonicaPix.html#@Types">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TLeptonicaPixClassArray">
+<param name="Local" value="uLeptonicaPix.html#TLeptonicaPixClassArray">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="uLeptonicaPixArray">
+<param name="Local" value="uLeptonicaPixArray.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Classes">
+<param name="Local" value="uLeptonicaPixArray.html#@Classes">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TLeptonicaPixArray">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FPixa">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#FPixa">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#Initialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Pixa">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#Pixa">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Count">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#Count">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="GetInitialized">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#GetInitialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetCount">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#GetCount">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="DestroyPixa">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#DestroyPixa">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="CopyToArray">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#CopyToArray">
+</object>
+</ul>
+</ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="uLeptonicaTypes">
+<param name="Local" value="uLeptonicaTypes.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Classes">
+<param name="Local" value="uLeptonicaTypes.html#@Classes">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TPixColormap">
+<param name="Local" value="uLeptonicaTypes.TPixColormap.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uLeptonicaTypes.TPixColormap.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="arr">
+<param name="Local" value="uLeptonicaTypes.TPixColormap.html#arr">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="depth">
+<param name="Local" value="uLeptonicaTypes.TPixColormap.html#depth">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="nalloc">
+<param name="Local" value="uLeptonicaTypes.TPixColormap.html#nalloc">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="n">
+<param name="Local" value="uLeptonicaTypes.TPixColormap.html#n">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TRGBA_Quad">
+<param name="Local" value="uLeptonicaTypes.TRGBA_Quad.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uLeptonicaTypes.TRGBA_Quad.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="blue">
+<param name="Local" value="uLeptonicaTypes.TRGBA_Quad.html#blue">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="green">
+<param name="Local" value="uLeptonicaTypes.TRGBA_Quad.html#green">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="red">
+<param name="Local" value="uLeptonicaTypes.TRGBA_Quad.html#red">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="alpha">
+<param name="Local" value="uLeptonicaTypes.TRGBA_Quad.html#alpha">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TPix">
+<param name="Local" value="uLeptonicaTypes.TPix.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uLeptonicaTypes.TPix.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="w">
+<param name="Local" value="uLeptonicaTypes.TPix.html#w">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="h">
+<param name="Local" value="uLeptonicaTypes.TPix.html#h">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="d">
+<param name="Local" value="uLeptonicaTypes.TPix.html#d">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="spp">
+<param name="Local" value="uLeptonicaTypes.TPix.html#spp">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="wpl">
+<param name="Local" value="uLeptonicaTypes.TPix.html#wpl">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="refcount">
+<param name="Local" value="uLeptonicaTypes.TPix.html#refcount">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="xres">
+<param name="Local" value="uLeptonicaTypes.TPix.html#xres">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="yres">
+<param name="Local" value="uLeptonicaTypes.TPix.html#yres">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="informat">
+<param name="Local" value="uLeptonicaTypes.TPix.html#informat">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="special">
+<param name="Local" value="uLeptonicaTypes.TPix.html#special">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="text">
+<param name="Local" value="uLeptonicaTypes.TPix.html#text">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="colormap">
+<param name="Local" value="uLeptonicaTypes.TPix.html#colormap">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="data">
+<param name="Local" value="uLeptonicaTypes.TPix.html#data">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TBox">
+<param name="Local" value="uLeptonicaTypes.TBox.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uLeptonicaTypes.TBox.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="x">
+<param name="Local" value="uLeptonicaTypes.TBox.html#x">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="y">
+<param name="Local" value="uLeptonicaTypes.TBox.html#y">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="w">
+<param name="Local" value="uLeptonicaTypes.TBox.html#w">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="h">
+<param name="Local" value="uLeptonicaTypes.TBox.html#h">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="refcount">
+<param name="Local" value="uLeptonicaTypes.TBox.html#refcount">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TBoxa">
+<param name="Local" value="uLeptonicaTypes.TBoxa.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uLeptonicaTypes.TBoxa.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="n">
+<param name="Local" value="uLeptonicaTypes.TBoxa.html#n">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="nalloc">
+<param name="Local" value="uLeptonicaTypes.TBoxa.html#nalloc">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="refcount">
+<param name="Local" value="uLeptonicaTypes.TBoxa.html#refcount">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="box">
+<param name="Local" value="uLeptonicaTypes.TBoxa.html#box">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TPixa">
+<param name="Local" value="uLeptonicaTypes.TPixa.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uLeptonicaTypes.TPixa.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="n">
+<param name="Local" value="uLeptonicaTypes.TPixa.html#n">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="nalloc">
+<param name="Local" value="uLeptonicaTypes.TPixa.html#nalloc">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="refcount">
+<param name="Local" value="uLeptonicaTypes.TPixa.html#refcount">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="pix">
+<param name="Local" value="uLeptonicaTypes.TPixa.html#pix">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="boxa">
+<param name="Local" value="uLeptonicaTypes.TPixa.html#boxa">
+</object>
+</ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Types">
+<param name="Local" value="uLeptonicaTypes.html#@Types">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="PUTF8Char">
+<param name="Local" value="uLeptonicaTypes.html#PUTF8Char">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="l_ok">
+<param name="Local" value="uLeptonicaTypes.html#l_ok">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="l_int8">
+<param name="Local" value="uLeptonicaTypes.html#l_int8">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="l_uint8">
+<param name="Local" value="uLeptonicaTypes.html#l_uint8">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="pl_uint8">
+<param name="Local" value="uLeptonicaTypes.html#pl_uint8">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="l_int16">
+<param name="Local" value="uLeptonicaTypes.html#l_int16">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="l_uint16">
+<param name="Local" value="uLeptonicaTypes.html#l_uint16">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="l_int32">
+<param name="Local" value="uLeptonicaTypes.html#l_int32">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="pl_uint32">
+<param name="Local" value="uLeptonicaTypes.html#pl_uint32">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="l_uint32">
+<param name="Local" value="uLeptonicaTypes.html#l_uint32">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="l_float32">
+<param name="Local" value="uLeptonicaTypes.html#l_float32">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="l_float64">
+<param name="Local" value="uLeptonicaTypes.html#l_float64">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="l_atomic">
+<param name="Local" value="uLeptonicaTypes.html#l_atomic">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="PPixColormap">
+<param name="Local" value="uLeptonicaTypes.html#PPixColormap">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="PPix">
+<param name="Local" value="uLeptonicaTypes.html#PPix">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="PPPix">
+<param name="Local" value="uLeptonicaTypes.html#PPPix">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="PBox">
+<param name="Local" value="uLeptonicaTypes.html#PBox">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="PPBox">
+<param name="Local" value="uLeptonicaTypes.html#PPBox">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="PBoxa">
+<param name="Local" value="uLeptonicaTypes.html#PBoxa">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="PPixa">
+<param name="Local" value="uLeptonicaTypes.html#PPixa">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TLeptonicaImageFormat">
+<param name="Local" value="uLeptonicaTypes.html#TLeptonicaImageFormat">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TLeptonicaLoaderStatus">
+<param name="Local" value="uLeptonicaTypes.html#TLeptonicaLoaderStatus">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TRectArray">
+<param name="Local" value="uLeptonicaTypes.html#TRectArray">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TIntegerArray">
+<param name="Local" value="uLeptonicaTypes.html#TIntegerArray">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TBooleanArray">
+<param name="Local" value="uLeptonicaTypes.html#TBooleanArray">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="uTesseractBaseAPI">
+<param name="Local" value="uTesseractBaseAPI.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Classes">
+<param name="Local" value="uTesseractBaseAPI.html#@Classes">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractBaseAPI">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Handle">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Handle">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Initialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Version">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Version">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InputName">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#InputName">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InputImage">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#InputImage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SourceYResolution">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#SourceYResolution">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Datapath">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Datapath">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="OutputName">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#OutputName">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InitLanguagesAsString">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#InitLanguagesAsString">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="PageSegMode">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#PageSegMode">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ThresholdedImage">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#ThresholdedImage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Gradient">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Gradient">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ThresholdedImageScaleFactor">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#ThresholdedImageScaleFactor">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Iterator">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Iterator">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ErrorMessage">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#ErrorMessage">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetVariable">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#SetVariable">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetDebugVariable">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#SetDebugVariable">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetIntVariable">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetIntVariable">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetBoolVariable">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetBoolVariable">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetDoubleVariable">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetDoubleVariable">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetStringVariable">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetStringVariable">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="PrintVariables">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#PrintVariables">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="PrintVariablesToFile">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#PrintVariablesToFile">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Init">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Init">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Init">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Init">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Init">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Init">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Init">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Init">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InitForAnalysePage">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#InitForAnalysePage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetLoadedLanguagesAsVector">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetLoadedLanguagesAsVector">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetAvailableLanguagesAsVector">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetAvailableLanguagesAsVector">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="IsLanguageLoaded">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#IsLanguageLoaded">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ReadConfigFile">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#ReadConfigFile">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ReadDebugConfigFile">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#ReadDebugConfigFile">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TesseractRect">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#TesseractRect">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ClearAdaptiveClassifier">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#ClearAdaptiveClassifier">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetImage">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#SetImage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetImage">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#SetImage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetImage">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#SetImage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetSourceResolution">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#SetSourceResolution">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetRectangle">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#SetRectangle">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetRegions">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetRegions">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetTextlines">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetTextlines">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetTextlines">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetTextlines">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetTextlines">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetTextlines">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetStrips">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetStrips">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetStrips">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetStrips">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetWords">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetWords">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetConnectedComponents">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetConnectedComponents">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetComponentImages">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetComponentImages">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetComponentImages">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetComponentImages">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="AnalyseLayout">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#AnalyseLayout">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Recognize">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Recognize">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ProcessPages">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#ProcessPages">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ProcessPage">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#ProcessPage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetText">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetText">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetUTF8Text">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetUTF8Text">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetHOCRText">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetHOCRText">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetAltoText">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetAltoText">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetPAGEText">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetPAGEText">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetTsvText">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetTsvText">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetBoxText">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetBoxText">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetLSTMBoxText">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetLSTMBoxText">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetWordStrBoxText">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetWordStrBoxText">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetUNLVText">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetUNLVText">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="MeanTextConf">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#MeanTextConf">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="AllWordConfidences">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#AllWordConfidences">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="AdaptToWordStr">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#AdaptToWordStr">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Clear">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Clear">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="End_">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#End_">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="IsValidWord">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#IsValidWord">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetTextDirection">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetTextDirection">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetUnichar">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetUnichar">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ClearPersistentCache">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#ClearPersistentCache">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="DetectOrientationScript">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#DetectOrientationScript">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetMinOrientationMargin">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#SetMinOrientationMargin">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="NumDawgs">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#NumDawgs">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Oem">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Oem">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetBlockTextOrientations">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetBlockTextOrientations">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractResultRenderer">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Handle">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#Handle">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#Initialized">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Insert">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#Insert">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Next">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#Next">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="BeginDocument">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#BeginDocument">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="AddImage">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#AddImage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="EndDocument">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#EndDocument">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FileExtension">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#FileExtension">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Title">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#Title">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ImageNum">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#ImageNum">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractTextRenderer">
+<param name="Local" value="uTesseractBaseAPI.TTesseractTextRenderer.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractBaseAPI.TTesseractTextRenderer.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractTextRenderer.html#Create">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractHOcrRenderer">
+<param name="Local" value="uTesseractBaseAPI.TTesseractHOcrRenderer.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractBaseAPI.TTesseractHOcrRenderer.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractHOcrRenderer.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractHOcrRenderer.html#Create">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractAltoRenderer">
+<param name="Local" value="uTesseractBaseAPI.TTesseractAltoRenderer.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractBaseAPI.TTesseractAltoRenderer.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractAltoRenderer.html#Create">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractPAGERenderer">
+<param name="Local" value="uTesseractBaseAPI.TTesseractPAGERenderer.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractBaseAPI.TTesseractPAGERenderer.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractPAGERenderer.html#Create">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractTsvRenderer">
+<param name="Local" value="uTesseractBaseAPI.TTesseractTsvRenderer.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractBaseAPI.TTesseractTsvRenderer.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractTsvRenderer.html#Create">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractPDFRenderer">
+<param name="Local" value="uTesseractBaseAPI.TTesseractPDFRenderer.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractBaseAPI.TTesseractPDFRenderer.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractPDFRenderer.html#Create">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractUnlvRenderer">
+<param name="Local" value="uTesseractBaseAPI.TTesseractUnlvRenderer.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractBaseAPI.TTesseractUnlvRenderer.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractUnlvRenderer.html#Create">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractBoxTextRenderer">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBoxTextRenderer.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBoxTextRenderer.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBoxTextRenderer.html#Create">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractLSTMBoxRenderer">
+<param name="Local" value="uTesseractBaseAPI.TTesseractLSTMBoxRenderer.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractBaseAPI.TTesseractLSTMBoxRenderer.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractLSTMBoxRenderer.html#Create">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractWordStrBoxRenderer">
+<param name="Local" value="uTesseractBaseAPI.TTesseractWordStrBoxRenderer.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractBaseAPI.TTesseractWordStrBoxRenderer.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractWordStrBoxRenderer.html#Create">
+</object>
+</ul>
+</ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="uTesseractChoiceIterator">
+<param name="Local" value="uTesseractChoiceIterator.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Classes">
+<param name="Local" value="uTesseractChoiceIterator.html#@Classes">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractChoiceIterator">
+<param name="Local" value="uTesseractChoiceIterator.TTesseractChoiceIterator.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uTesseractChoiceIterator.TTesseractChoiceIterator.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Handle">
+<param name="Local" value="uTesseractChoiceIterator.TTesseractChoiceIterator.html#Handle">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uTesseractChoiceIterator.TTesseractChoiceIterator.html#Initialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Text">
+<param name="Local" value="uTesseractChoiceIterator.TTesseractChoiceIterator.html#Text">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractChoiceIterator.TTesseractChoiceIterator.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractChoiceIterator.TTesseractChoiceIterator.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uTesseractChoiceIterator.TTesseractChoiceIterator.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Next">
+<param name="Local" value="uTesseractChoiceIterator.TTesseractChoiceIterator.html#Next">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Confidence">
+<param name="Local" value="uTesseractChoiceIterator.TTesseractChoiceIterator.html#Confidence">
+</object>
+</ul>
+</ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="uTesseractConstants">
+<param name="Local" value="uTesseractConstants.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Classes">
+<param name="Local" value="uTesseractConstants.html#@Classes">
+</object>
+<ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Constants">
+<param name="Local" value="uTesseractConstants.html#@Constants">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TESSERACT_MAJOR_VERSION">
+<param name="Local" value="uTesseractConstants.html#TESSERACT_MAJOR_VERSION">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TESSERACT_MINOR_VERSION">
+<param name="Local" value="uTesseractConstants.html#TESSERACT_MINOR_VERSION">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TESSERACT_MICRO_VERSION">
+<param name="Local" value="uTesseractConstants.html#TESSERACT_MICRO_VERSION">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="CRLF">
+<param name="Local" value="uTesseractConstants.html#CRLF">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="uTesseractIntegerArray">
+<param name="Local" value="uTesseractIntegerArray.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Classes">
+<param name="Local" value="uTesseractIntegerArray.html#@Classes">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractIntegerArray">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FPInteger">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html#FPInteger">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FCount">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html#FCount">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html#Initialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Count">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html#Count">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="GetInitialized">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html#GetInitialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="DestroyPInteger">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html#DestroyPInteger">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="CopyToArray">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html#CopyToArray">
+</object>
+</ul>
+</ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="uTesseractLibFunctions">
+<param name="Local" value="uTesseractLibFunctions.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Classes">
+<param name="Local" value="uTesseractLibFunctions.html#@Classes">
+</object>
+<ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="uTesseractLoader">
+<param name="Local" value="uTesseractLoader.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Classes">
+<param name="Local" value="uTesseractLoader.html#@Classes">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractLoader">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FLibHandle">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#FLibHandle">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FLibLoaded">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#FLibLoaded">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FReRaiseExceptions">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#FReRaiseExceptions">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FSetCurrentDir">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#FSetCurrentDir">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FShowMessageDlg">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#FShowMessageDlg">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FStatus">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#FStatus">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FLastErrorMessage">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#FLastErrorMessage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FMonitors">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#FMonitors">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FComponents">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#FComponents">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="SetCurrentDir">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#SetCurrentDir">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Status">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#Status">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#Initialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ReRaiseExceptions">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#ReRaiseExceptions">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LastErrorMessage">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#LastErrorMessage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ShowMessageDlg">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#ShowMessageDlg">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="GetInitialized">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#GetInitialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="IsVisualCppInstalled">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#IsVisualCppInstalled">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FreeTesseractLibrary">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#FreeTesseractLibrary">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadGeneralFreeFunctions">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#LoadGeneralFreeFunctions">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadRendererAPIFunctions">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#LoadRendererAPIFunctions">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadBaseAPIFunctions1">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#LoadBaseAPIFunctions1">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadBaseAPIFunctions2">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#LoadBaseAPIFunctions2">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadBaseAPIFunctions3">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#LoadBaseAPIFunctions3">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadBaseAPIFunctions4">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#LoadBaseAPIFunctions4">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadPageIteratorFunctions">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#LoadPageIteratorFunctions">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadResultIteratorFunctions">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#LoadResultIteratorFunctions">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadChoiceIteratorFunctions">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#LoadChoiceIteratorFunctions">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadProgressMonitorFunctions">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#LoadProgressMonitorFunctions">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="AfterConstruction">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#AfterConstruction">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialize">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#Initialize">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InternalSearchMonitor">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#InternalSearchMonitor">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InternalRegisterMonitor">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#InternalRegisterMonitor">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InternalUnregisterMonitor">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#InternalUnregisterMonitor">
+</object>
+</ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Functions and Procedures">
+<param name="Local" value="uTesseractLoader.html#@FuncsProcs">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="DestroyGlobalTesseractLoader">
+<param name="Local" value="uTesseractLoader.html#DestroyGlobalTesseractLoader">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="uTesseractMiscFunctions">
+<param name="Local" value="uTesseractMiscFunctions.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Classes">
+<param name="Local" value="uTesseractMiscFunctions.html#@Classes">
+</object>
+<ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Functions and Procedures">
+<param name="Local" value="uTesseractMiscFunctions.html#@FuncsProcs">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="GetModulePath">
+<param name="Local" value="uTesseractMiscFunctions.html#GetModulePath">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="OutputDebugMessage">
+<param name="Local" value="uTesseractMiscFunctions.html#OutputDebugMessage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="CustomExceptionHandler">
+<param name="Local" value="uTesseractMiscFunctions.html#CustomExceptionHandler">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ShowErrorMessageDlg">
+<param name="Local" value="uTesseractMiscFunctions.html#ShowErrorMessageDlg">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TessUTF8ToString">
+<param name="Local" value="uTesseractMiscFunctions.html#TessUTF8ToString">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="StringToTessUTF8">
+<param name="Local" value="uTesseractMiscFunctions.html#StringToTessUTF8">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="uTesseractMonitor">
+<param name="Local" value="uTesseractMonitor.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Classes">
+<param name="Local" value="uTesseractMonitor.html#@Classes">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractMonitor">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FHandle">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#FHandle">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Handle">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#Handle">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#Initialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="CancelThis">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#CancelThis">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Progress">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#Progress">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="GetInitialized">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#GetInitialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetCancelThis">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#GetCancelThis">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetProgress">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#GetProgress">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetCancelThis">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#SetCancelThis">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetCancelFunc">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#SetCancelFunc">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetProgressFunc">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#SetProgressFunc">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetDeadlineMSecs">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#SetDeadlineMSecs">
+</object>
+</ul>
+</ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="uTesseractOCR">
+<param name="Local" value="uTesseractOCR.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Classes">
+<param name="Local" value="uTesseractOCR.html#@Classes">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractOCR">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FBaseAPI">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#FBaseAPI">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FMonitor">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#FMonitor">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FOnCancel">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#FOnCancel">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FOnProgress">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#FOnProgress">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="BaseAPI">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#BaseAPI">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Monitor">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#Monitor">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#Initialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="OnCancel">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#OnCancel">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="OnProgress">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#OnProgress">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="GetInitialized">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#GetInitialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="doOnCancelEvent">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#doOnCancelEvent">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="doOnProgressEvent">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#doOnProgressEvent">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InitializeLeptonica">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#InitializeLeptonica">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InitializeTesseract">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#InitializeTesseract">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InitializeBaseAPI">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#InitializeBaseAPI">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InitializeMonitor">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#InitializeMonitor">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="BeforeDestruction">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#BeforeDestruction">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialize">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#Initialize">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Recognize">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#Recognize">
+</object>
+</ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Functions and Procedures">
+<param name="Local" value="uTesseractOCR.html#@FuncsProcs">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Register">
+<param name="Local" value="uTesseractOCR.html#Register">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Types">
+<param name="Local" value="uTesseractOCR.html#@Types">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TOnCancelEvent">
+<param name="Local" value="uTesseractOCR.html#TOnCancelEvent">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TOnProgressEvent">
+<param name="Local" value="uTesseractOCR.html#TOnProgressEvent">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="uTesseractPageIterator">
+<param name="Local" value="uTesseractPageIterator.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Classes">
+<param name="Local" value="uTesseractPageIterator.html#@Classes">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractPageIterator">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FHandle">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#FHandle">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Handle">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#Handle">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#Initialized">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="GetInitialized">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#GetInitialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Begin_">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#Begin_">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Next">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#Next">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="IsAtBeginningOf">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#IsAtBeginningOf">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="IsAtFinalElement">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#IsAtFinalElement">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="BoundingBox">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#BoundingBox">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="BlockType">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#BlockType">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetBinaryImage">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#GetBinaryImage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetImage">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#GetImage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Baseline">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#Baseline">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Orientation">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#Orientation">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ParagraphInfo">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#ParagraphInfo">
+</object>
+</ul>
+</ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="uTesseractResultIterator">
+<param name="Local" value="uTesseractResultIterator.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Classes">
+<param name="Local" value="uTesseractResultIterator.html#@Classes">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractResultIterator">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="GetChoiceIterator">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html#GetChoiceIterator">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Next">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html#Next">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetText">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html#GetText">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Confidence">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html#Confidence">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="WordRecognitionLanguage">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html#WordRecognitionLanguage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="WordFontAttributes">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html#WordFontAttributes">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="WordIsFromDictionary">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html#WordIsFromDictionary">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="WordIsNumeric">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html#WordIsNumeric">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SymbolIsSuperscript">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html#SymbolIsSuperscript">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SymbolIsSubscript">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html#SymbolIsSubscript">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SymbolIsDropcap">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html#SymbolIsDropcap">
+</object>
+</ul>
+</ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="uTesseractTypes">
+<param name="Local" value="uTesseractTypes.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Classes">
+<param name="Local" value="uTesseractTypes.html#@Classes">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="EANYCODE_CHAR">
+<param name="Local" value="uTesseractTypes.EANYCODE_CHAR.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uTesseractTypes.EANYCODE_CHAR.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="char_code">
+<param name="Local" value="uTesseractTypes.EANYCODE_CHAR.html#char_code">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="left">
+<param name="Local" value="uTesseractTypes.EANYCODE_CHAR.html#left">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="right">
+<param name="Local" value="uTesseractTypes.EANYCODE_CHAR.html#right">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="top">
+<param name="Local" value="uTesseractTypes.EANYCODE_CHAR.html#top">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="bottom">
+<param name="Local" value="uTesseractTypes.EANYCODE_CHAR.html#bottom">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="font_index">
+<param name="Local" value="uTesseractTypes.EANYCODE_CHAR.html#font_index">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="confidence">
+<param name="Local" value="uTesseractTypes.EANYCODE_CHAR.html#confidence">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="point_size">
+<param name="Local" value="uTesseractTypes.EANYCODE_CHAR.html#point_size">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="blanks">
+<param name="Local" value="uTesseractTypes.EANYCODE_CHAR.html#blanks">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="formatting">
+<param name="Local" value="uTesseractTypes.EANYCODE_CHAR.html#formatting">
+</object>
+</ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Types">
+<param name="Local" value="uTesseractTypes.html#@Types">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TFileDescriptor">
+<param name="Local" value="uTesseractTypes.html#TFileDescriptor">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="PFileDescriptor">
+<param name="Local" value="uTesseractTypes.html#PFileDescriptor">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="PPUTF8Char">
+<param name="Local" value="uTesseractTypes.html#PPUTF8Char">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="PPInteger">
+<param name="Local" value="uTesseractTypes.html#PPInteger">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TessResultRenderer">
+<param name="Local" value="uTesseractTypes.html#TessResultRenderer">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TessBaseAPI">
+<param name="Local" value="uTesseractTypes.html#TessBaseAPI">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TessPageIterator">
+<param name="Local" value="uTesseractTypes.html#TessPageIterator">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TessResultIterator">
+<param name="Local" value="uTesseractTypes.html#TessResultIterator">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TessMutableIterator">
+<param name="Local" value="uTesseractTypes.html#TessMutableIterator">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TessChoiceIterator">
+<param name="Local" value="uTesseractTypes.html#TessChoiceIterator">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="PETEXT_DESC">
+<param name="Local" value="uTesseractTypes.html#PETEXT_DESC">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TessOcrEngineMode">
+<param name="Local" value="uTesseractTypes.html#TessOcrEngineMode">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TessPageSegMode">
+<param name="Local" value="uTesseractTypes.html#TessPageSegMode">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TessPageIteratorLevel">
+<param name="Local" value="uTesseractTypes.html#TessPageIteratorLevel">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TessPolyBlockType">
+<param name="Local" value="uTesseractTypes.html#TessPolyBlockType">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TessOrientation">
+<param name="Local" value="uTesseractTypes.html#TessOrientation">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TessParagraphJustification">
+<param name="Local" value="uTesseractTypes.html#TessParagraphJustification">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TessWritingDirection">
+<param name="Local" value="uTesseractTypes.html#TessWritingDirection">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TessTextlineOrder">
+<param name="Local" value="uTesseractTypes.html#TessTextlineOrder">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="CANCEL_FUNC">
+<param name="Local" value="uTesseractTypes.html#CANCEL_FUNC">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="PROGRESS_FUNC">
+<param name="Local" value="uTesseractTypes.html#PROGRESS_FUNC">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="PROGRESS_FUNC2">
+<param name="Local" value="uTesseractTypes.html#PROGRESS_FUNC2">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TessCancelFunc">
+<param name="Local" value="uTesseractTypes.html#TessCancelFunc">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TessProgressFunc">
+<param name="Local" value="uTesseractTypes.html#TessProgressFunc">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractLoaderStatus">
+<param name="Local" value="uTesseractTypes.html#TTesseractLoaderStatus">
+</object>
+</ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Class Hierarchy">
+<param name="Local" value="ClassHierarchy.html">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Classes">
+<param name="Local" value="AllClasses.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="EANYCODE_CHAR">
+<param name="Local" value="uTesseractTypes.EANYCODE_CHAR.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uTesseractTypes.EANYCODE_CHAR.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="blanks">
+<param name="Local" value="uTesseractTypes.EANYCODE_CHAR.html#blanks">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="bottom">
+<param name="Local" value="uTesseractTypes.EANYCODE_CHAR.html#bottom">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="char_code">
+<param name="Local" value="uTesseractTypes.EANYCODE_CHAR.html#char_code">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="confidence">
+<param name="Local" value="uTesseractTypes.EANYCODE_CHAR.html#confidence">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="font_index">
+<param name="Local" value="uTesseractTypes.EANYCODE_CHAR.html#font_index">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="formatting">
+<param name="Local" value="uTesseractTypes.EANYCODE_CHAR.html#formatting">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="left">
+<param name="Local" value="uTesseractTypes.EANYCODE_CHAR.html#left">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="point_size">
+<param name="Local" value="uTesseractTypes.EANYCODE_CHAR.html#point_size">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="right">
+<param name="Local" value="uTesseractTypes.EANYCODE_CHAR.html#right">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="top">
+<param name="Local" value="uTesseractTypes.EANYCODE_CHAR.html#top">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TBox">
+<param name="Local" value="uLeptonicaTypes.TBox.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uLeptonicaTypes.TBox.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="h">
+<param name="Local" value="uLeptonicaTypes.TBox.html#h">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="refcount">
+<param name="Local" value="uLeptonicaTypes.TBox.html#refcount">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="w">
+<param name="Local" value="uLeptonicaTypes.TBox.html#w">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="x">
+<param name="Local" value="uLeptonicaTypes.TBox.html#x">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="y">
+<param name="Local" value="uLeptonicaTypes.TBox.html#y">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TBoxa">
+<param name="Local" value="uLeptonicaTypes.TBoxa.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uLeptonicaTypes.TBoxa.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="box">
+<param name="Local" value="uLeptonicaTypes.TBoxa.html#box">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="n">
+<param name="Local" value="uLeptonicaTypes.TBoxa.html#n">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="nalloc">
+<param name="Local" value="uLeptonicaTypes.TBoxa.html#nalloc">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="refcount">
+<param name="Local" value="uLeptonicaTypes.TBoxa.html#refcount">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TLeptonicaBox">
+<param name="Local" value="uLeptonicaBox.TLeptonicaBox.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uLeptonicaBox.TLeptonicaBox.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FBox">
+<param name="Local" value="uLeptonicaBox.TLeptonicaBox.html#FBox">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uLeptonicaBox.TLeptonicaBox.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Box">
+<param name="Local" value="uLeptonicaBox.TLeptonicaBox.html#Box">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uLeptonicaBox.TLeptonicaBox.html#Initialized">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uLeptonicaBox.TLeptonicaBox.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uLeptonicaBox.TLeptonicaBox.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uLeptonicaBox.TLeptonicaBox.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uLeptonicaBox.TLeptonicaBox.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetInitialized">
+<param name="Local" value="uLeptonicaBox.TLeptonicaBox.html#GetInitialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="DestroyBox">
+<param name="Local" value="uLeptonicaBox.TLeptonicaBox.html#DestroyBox">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TLeptonicaBoxArray">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FBoxa">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#FBoxa">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Boxa">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#Boxa">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Count">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#Count">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#Initialized">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetCount">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#GetCount">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetInitialized">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#GetInitialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="CopyToArray">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#CopyToArray">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="DestroyBoxa">
+<param name="Local" value="uLeptonicaBoxArray.TLeptonicaBoxArray.html#DestroyBoxa">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TLeptonicaLoader">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FLastErrorMessage">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#FLastErrorMessage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FLibHandle">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#FLibHandle">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FLibLoaded">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#FLibLoaded">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FReRaiseExceptions">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#FReRaiseExceptions">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FSetCurrentDir">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#FSetCurrentDir">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FShowMessageDlg">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#FShowMessageDlg">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FStatus">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#FStatus">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#Initialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LastErrorMessage">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#LastErrorMessage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ReRaiseExceptions">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#ReRaiseExceptions">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetCurrentDir">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#SetCurrentDir">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ShowMessageDlg">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#ShowMessageDlg">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Status">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#Status">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialize">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#Initialize">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetInitialized">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#GetInitialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FreeLeptonicaLibrary">
+<param name="Local" value="uLeptonicaLoader.TLeptonicaLoader.html#FreeLeptonicaLibrary">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TLeptonicaPix">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FPix">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#FPix">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#Initialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Pix">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#Pix">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Deskew">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#Deskew">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="DeskewImage">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#DeskewImage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SaveImageAsStream">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#SaveImageAsStream">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetInitialized">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#GetInitialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="DestroyPix">
+<param name="Local" value="uLeptonicaPix.TLeptonicaPix.html#DestroyPix">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TLeptonicaPixArray">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FPixa">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#FPixa">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Count">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#Count">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#Initialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Pixa">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#Pixa">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetCount">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#GetCount">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetInitialized">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#GetInitialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="CopyToArray">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#CopyToArray">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="DestroyPixa">
+<param name="Local" value="uLeptonicaPixArray.TLeptonicaPixArray.html#DestroyPixa">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TPix">
+<param name="Local" value="uLeptonicaTypes.TPix.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uLeptonicaTypes.TPix.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="colormap">
+<param name="Local" value="uLeptonicaTypes.TPix.html#colormap">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="d">
+<param name="Local" value="uLeptonicaTypes.TPix.html#d">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="data">
+<param name="Local" value="uLeptonicaTypes.TPix.html#data">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="h">
+<param name="Local" value="uLeptonicaTypes.TPix.html#h">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="informat">
+<param name="Local" value="uLeptonicaTypes.TPix.html#informat">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="refcount">
+<param name="Local" value="uLeptonicaTypes.TPix.html#refcount">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="special">
+<param name="Local" value="uLeptonicaTypes.TPix.html#special">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="spp">
+<param name="Local" value="uLeptonicaTypes.TPix.html#spp">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="text">
+<param name="Local" value="uLeptonicaTypes.TPix.html#text">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="w">
+<param name="Local" value="uLeptonicaTypes.TPix.html#w">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="wpl">
+<param name="Local" value="uLeptonicaTypes.TPix.html#wpl">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="xres">
+<param name="Local" value="uLeptonicaTypes.TPix.html#xres">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="yres">
+<param name="Local" value="uLeptonicaTypes.TPix.html#yres">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TPixa">
+<param name="Local" value="uLeptonicaTypes.TPixa.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uLeptonicaTypes.TPixa.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="boxa">
+<param name="Local" value="uLeptonicaTypes.TPixa.html#boxa">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="n">
+<param name="Local" value="uLeptonicaTypes.TPixa.html#n">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="nalloc">
+<param name="Local" value="uLeptonicaTypes.TPixa.html#nalloc">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="pix">
+<param name="Local" value="uLeptonicaTypes.TPixa.html#pix">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="refcount">
+<param name="Local" value="uLeptonicaTypes.TPixa.html#refcount">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TPixColormap">
+<param name="Local" value="uLeptonicaTypes.TPixColormap.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uLeptonicaTypes.TPixColormap.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="arr">
+<param name="Local" value="uLeptonicaTypes.TPixColormap.html#arr">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="depth">
+<param name="Local" value="uLeptonicaTypes.TPixColormap.html#depth">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="n">
+<param name="Local" value="uLeptonicaTypes.TPixColormap.html#n">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="nalloc">
+<param name="Local" value="uLeptonicaTypes.TPixColormap.html#nalloc">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TRGBA_Quad">
+<param name="Local" value="uLeptonicaTypes.TRGBA_Quad.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uLeptonicaTypes.TRGBA_Quad.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="alpha">
+<param name="Local" value="uLeptonicaTypes.TRGBA_Quad.html#alpha">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="blue">
+<param name="Local" value="uLeptonicaTypes.TRGBA_Quad.html#blue">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="green">
+<param name="Local" value="uLeptonicaTypes.TRGBA_Quad.html#green">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="red">
+<param name="Local" value="uLeptonicaTypes.TRGBA_Quad.html#red">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractAltoRenderer">
+<param name="Local" value="uTesseractBaseAPI.TTesseractAltoRenderer.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractBaseAPI.TTesseractAltoRenderer.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractAltoRenderer.html#Create">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractBaseAPI">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Datapath">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Datapath">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ErrorMessage">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#ErrorMessage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Gradient">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Gradient">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Handle">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Handle">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Initialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InitLanguagesAsString">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#InitLanguagesAsString">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InputImage">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#InputImage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InputName">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#InputName">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Iterator">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Iterator">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="OutputName">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#OutputName">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="PageSegMode">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#PageSegMode">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SourceYResolution">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#SourceYResolution">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ThresholdedImage">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#ThresholdedImage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ThresholdedImageScaleFactor">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#ThresholdedImageScaleFactor">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Version">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Version">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="AdaptToWordStr">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#AdaptToWordStr">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="AllWordConfidences">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#AllWordConfidences">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="AnalyseLayout">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#AnalyseLayout">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ClearAdaptiveClassifier">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#ClearAdaptiveClassifier">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="DetectOrientationScript">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#DetectOrientationScript">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetAltoText">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetAltoText">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetAvailableLanguagesAsVector">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetAvailableLanguagesAsVector">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetBlockTextOrientations">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetBlockTextOrientations">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetBoolVariable">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetBoolVariable">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetBoxText">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetBoxText">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetComponentImages">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetComponentImages">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetComponentImages">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetComponentImages">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetConnectedComponents">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetConnectedComponents">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetDoubleVariable">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetDoubleVariable">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetHOCRText">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetHOCRText">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetIntVariable">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetIntVariable">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetLoadedLanguagesAsVector">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetLoadedLanguagesAsVector">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetLSTMBoxText">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetLSTMBoxText">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetPAGEText">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetPAGEText">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetRegions">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetRegions">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetStringVariable">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetStringVariable">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetStrips">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetStrips">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetStrips">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetStrips">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetText">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetText">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetTextDirection">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetTextDirection">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetTextlines">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetTextlines">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetTextlines">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetTextlines">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetTextlines">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetTextlines">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetTsvText">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetTsvText">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetUnichar">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetUnichar">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetUNLVText">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetUNLVText">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetUTF8Text">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetUTF8Text">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetWords">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetWords">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetWordStrBoxText">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#GetWordStrBoxText">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Init">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Init">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Init">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Init">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Init">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Init">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Init">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Init">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InitForAnalysePage">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#InitForAnalysePage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="IsLanguageLoaded">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#IsLanguageLoaded">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="IsValidWord">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#IsValidWord">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="MeanTextConf">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#MeanTextConf">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="NumDawgs">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#NumDawgs">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Oem">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Oem">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="PrintVariables">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#PrintVariables">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="PrintVariablesToFile">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#PrintVariablesToFile">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ProcessPage">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#ProcessPage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ProcessPages">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#ProcessPages">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ReadConfigFile">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#ReadConfigFile">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ReadDebugConfigFile">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#ReadDebugConfigFile">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Recognize">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Recognize">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetDebugVariable">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#SetDebugVariable">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetImage">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#SetImage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetImage">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#SetImage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetImage">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#SetImage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetRectangle">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#SetRectangle">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetSourceResolution">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#SetSourceResolution">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetVariable">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#SetVariable">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TesseractRect">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#TesseractRect">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Clear">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#Clear">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ClearPersistentCache">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#ClearPersistentCache">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="End_">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#End_">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetMinOrientationMargin">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBaseAPI.html#SetMinOrientationMargin">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractBoxTextRenderer">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBoxTextRenderer.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBoxTextRenderer.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractBoxTextRenderer.html#Create">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractChoiceIterator">
+<param name="Local" value="uTesseractChoiceIterator.TTesseractChoiceIterator.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uTesseractChoiceIterator.TTesseractChoiceIterator.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Handle">
+<param name="Local" value="uTesseractChoiceIterator.TTesseractChoiceIterator.html#Handle">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uTesseractChoiceIterator.TTesseractChoiceIterator.html#Initialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Text">
+<param name="Local" value="uTesseractChoiceIterator.TTesseractChoiceIterator.html#Text">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractChoiceIterator.TTesseractChoiceIterator.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractChoiceIterator.TTesseractChoiceIterator.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uTesseractChoiceIterator.TTesseractChoiceIterator.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Confidence">
+<param name="Local" value="uTesseractChoiceIterator.TTesseractChoiceIterator.html#Confidence">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Next">
+<param name="Local" value="uTesseractChoiceIterator.TTesseractChoiceIterator.html#Next">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractHOcrRenderer">
+<param name="Local" value="uTesseractBaseAPI.TTesseractHOcrRenderer.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractBaseAPI.TTesseractHOcrRenderer.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractHOcrRenderer.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractHOcrRenderer.html#Create">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractIntegerArray">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FCount">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html#FCount">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FPInteger">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html#FPInteger">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Count">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html#Count">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html#Initialized">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetInitialized">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html#GetInitialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="CopyToArray">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html#CopyToArray">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="DestroyPInteger">
+<param name="Local" value="uTesseractIntegerArray.TTesseractIntegerArray.html#DestroyPInteger">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractLoader">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FComponents">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#FComponents">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FLastErrorMessage">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#FLastErrorMessage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FLibHandle">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#FLibHandle">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FLibLoaded">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#FLibLoaded">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FMonitors">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#FMonitors">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FReRaiseExceptions">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#FReRaiseExceptions">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FSetCurrentDir">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#FSetCurrentDir">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FShowMessageDlg">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#FShowMessageDlg">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FStatus">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#FStatus">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#Initialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LastErrorMessage">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#LastErrorMessage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ReRaiseExceptions">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#ReRaiseExceptions">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetCurrentDir">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#SetCurrentDir">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ShowMessageDlg">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#ShowMessageDlg">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Status">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#Status">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialize">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#Initialize">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InternalRegisterMonitor">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#InternalRegisterMonitor">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InternalSearchMonitor">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#InternalSearchMonitor">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InternalUnregisterMonitor">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#InternalUnregisterMonitor">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetInitialized">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#GetInitialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="IsVisualCppInstalled">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#IsVisualCppInstalled">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadBaseAPIFunctions1">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#LoadBaseAPIFunctions1">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadBaseAPIFunctions2">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#LoadBaseAPIFunctions2">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadBaseAPIFunctions3">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#LoadBaseAPIFunctions3">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadBaseAPIFunctions4">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#LoadBaseAPIFunctions4">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadChoiceIteratorFunctions">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#LoadChoiceIteratorFunctions">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadGeneralFreeFunctions">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#LoadGeneralFreeFunctions">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadPageIteratorFunctions">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#LoadPageIteratorFunctions">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadProgressMonitorFunctions">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#LoadProgressMonitorFunctions">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadRendererAPIFunctions">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#LoadRendererAPIFunctions">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadResultIteratorFunctions">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#LoadResultIteratorFunctions">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="AfterConstruction">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#AfterConstruction">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FreeTesseractLibrary">
+<param name="Local" value="uTesseractLoader.TTesseractLoader.html#FreeTesseractLibrary">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractLSTMBoxRenderer">
+<param name="Local" value="uTesseractBaseAPI.TTesseractLSTMBoxRenderer.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractBaseAPI.TTesseractLSTMBoxRenderer.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractLSTMBoxRenderer.html#Create">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractMonitor">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FHandle">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#FHandle">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="CancelThis">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#CancelThis">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Handle">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#Handle">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#Initialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Progress">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#Progress">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetCancelFunc">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#SetCancelFunc">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetDeadlineMSecs">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#SetDeadlineMSecs">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetProgressFunc">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#SetProgressFunc">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetCancelThis">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#GetCancelThis">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetInitialized">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#GetInitialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetProgress">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#GetProgress">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetCancelThis">
+<param name="Local" value="uTesseractMonitor.TTesseractMonitor.html#SetCancelThis">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractOCR">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FBaseAPI">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#FBaseAPI">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FMonitor">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#FMonitor">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FOnCancel">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#FOnCancel">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FOnProgress">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#FOnProgress">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="BaseAPI">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#BaseAPI">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#Initialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Monitor">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#Monitor">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="OnCancel">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#OnCancel">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="OnProgress">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#OnProgress">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialize">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#Initialize">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Recognize">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#Recognize">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetInitialized">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#GetInitialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="BeforeDestruction">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#BeforeDestruction">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="doOnCancelEvent">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#doOnCancelEvent">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="doOnProgressEvent">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#doOnProgressEvent">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InitializeBaseAPI">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#InitializeBaseAPI">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InitializeLeptonica">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#InitializeLeptonica">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InitializeMonitor">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#InitializeMonitor">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InitializeTesseract">
+<param name="Local" value="uTesseractOCR.TTesseractOCR.html#InitializeTesseract">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractPageIterator">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fields">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FHandle">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#FHandle">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Handle">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#Handle">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#Initialized">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Baseline">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#Baseline">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="BlockType">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#BlockType">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="BoundingBox">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#BoundingBox">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetBinaryImage">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#GetBinaryImage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetImage">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#GetImage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="IsAtBeginningOf">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#IsAtBeginningOf">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="IsAtFinalElement">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#IsAtFinalElement">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Next">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#Next">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Orientation">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#Orientation">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ParagraphInfo">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#ParagraphInfo">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetInitialized">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#GetInitialized">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Begin_">
+<param name="Local" value="uTesseractPageIterator.TTesseractPageIterator.html#Begin_">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractPAGERenderer">
+<param name="Local" value="uTesseractBaseAPI.TTesseractPAGERenderer.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractBaseAPI.TTesseractPAGERenderer.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractPAGERenderer.html#Create">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractPDFRenderer">
+<param name="Local" value="uTesseractBaseAPI.TTesseractPDFRenderer.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractBaseAPI.TTesseractPDFRenderer.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractPDFRenderer.html#Create">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractResultIterator">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Confidence">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html#Confidence">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetChoiceIterator">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html#GetChoiceIterator">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetText">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html#GetText">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Next">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html#Next">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SymbolIsDropcap">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html#SymbolIsDropcap">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SymbolIsSubscript">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html#SymbolIsSubscript">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SymbolIsSuperscript">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html#SymbolIsSuperscript">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="WordFontAttributes">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html#WordFontAttributes">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="WordIsFromDictionary">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html#WordIsFromDictionary">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="WordIsNumeric">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html#WordIsNumeric">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="WordRecognitionLanguage">
+<param name="Local" value="uTesseractResultIterator.TTesseractResultIterator.html#WordRecognitionLanguage">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractResultRenderer">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Properties">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Handle">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#Handle">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialized">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#Initialized">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="AddImage">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#AddImage">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="BeginDocument">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#BeginDocument">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="EndDocument">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#EndDocument">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FileExtension">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#FileExtension">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ImageNum">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#ImageNum">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Insert">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#Insert">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Next">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#Next">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Title">
+<param name="Local" value="uTesseractBaseAPI.TTesseractResultRenderer.html#Title">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractTextRenderer">
+<param name="Local" value="uTesseractBaseAPI.TTesseractTextRenderer.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractBaseAPI.TTesseractTextRenderer.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractTextRenderer.html#Create">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractTsvRenderer">
+<param name="Local" value="uTesseractBaseAPI.TTesseractTsvRenderer.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractBaseAPI.TTesseractTsvRenderer.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractTsvRenderer.html#Create">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractUnlvRenderer">
+<param name="Local" value="uTesseractBaseAPI.TTesseractUnlvRenderer.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractBaseAPI.TTesseractUnlvRenderer.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractUnlvRenderer.html#Create">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TTesseractWordStrBoxRenderer">
+<param name="Local" value="uTesseractBaseAPI.TTesseractWordStrBoxRenderer.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methods">
+<param name="Local" value="uTesseractBaseAPI.TTesseractWordStrBoxRenderer.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="uTesseractBaseAPI.TTesseractWordStrBoxRenderer.html#Create">
+</object>
+</ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Overview">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="All Units">
+<param name="Local" value="AllUnits.html">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Class Hierarchy">
+<param name="Local" value="ClassHierarchy.html">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="All Classes, Interfaces, Objects and Records">
+<param name="Local" value="AllClasses.html">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="All Types">
+<param name="Local" value="AllTypes.html">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="All Variables">
+<param name="Local" value="AllVariables.html">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="All Constants">
+<param name="Local" value="AllConstants.html">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="All Functions and Procedures">
+<param name="Local" value="AllFunctions.html">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="All Identifiers">
+<param name="Local" value="AllIdentifiers.html">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Legend">
+<param name="Local" value="Legend.html">
+</object>
+</ul>
+</body></html>

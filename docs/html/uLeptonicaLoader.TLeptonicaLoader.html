@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>tesseract4delphi: uLeptonicaLoader: Class TLeptonicaLoader</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="PasDoc 0.17.0.snapshot">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="StyleSheet" type="text/css" href="pasdoc.css">
+</head>
+<body>
+<span id="TLeptonicaLoader"></span><h1 class="cio">Class TLeptonicaLoader</h1>
+<div class="sections">
+<div class="one_section"><a class="section" href="#PasDoc-Description">Description</a></div><div class="one_section"><a class="section" href="#PasDoc-Hierarchy">Hierarchy</a></div><div class="one_section"><a class="section" href="#PasDoc-Fields">Fields</a></div><div class="one_section"><a class="section" href="#PasDoc-Methods">Methods</a></div><div class="one_section"><a class="section" href="#PasDoc-Properties">Properties</a></div></div>
+<span id="PasDoc-Description"></span><h2 class="unit">Unit</h2>
+<p class="unitlink">
+<a href="uLeptonicaLoader.html">uLeptonicaLoader</a></p>
+<h2 class="declaration">Declaration</h2>
+<p class="declaration">
+<code>type TLeptonicaLoader = class(TObject)</code></p>
+<h2 class="description">Description</h2>
+<p>
+ Class used to simplify the Leptonica initialization and destruction. </p>
+<span id="PasDoc-Hierarchy"></span><h2 class="hierarchy">Hierarchy</h2>
+<ul class="hierarchy"><li class="ancestor">TObject</li>
+<li class="thisitem">TLeptonicaLoader</li></ul><h2 class="overview">Overview</h2>
+<span id="PasDoc-Fields"></span><h3 class="summary">Fields</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code><strong><a href="uLeptonicaLoader.TLeptonicaLoader.html#FLibHandle">FLibHandle</a></strong>: TLibHandle;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code><strong><a href="uLeptonicaLoader.TLeptonicaLoader.html#FLibLoaded">FLibLoaded</a></strong>: boolean;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code><strong><a href="uLeptonicaLoader.TLeptonicaLoader.html#FReRaiseExceptions">FReRaiseExceptions</a></strong>: boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code><strong><a href="uLeptonicaLoader.TLeptonicaLoader.html#FSetCurrentDir">FSetCurrentDir</a></strong>: boolean;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code><strong><a href="uLeptonicaLoader.TLeptonicaLoader.html#FShowMessageDlg">FShowMessageDlg</a></strong>: boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code><strong><a href="uLeptonicaLoader.TLeptonicaLoader.html#FStatus">FStatus</a></strong>: <a href="uLeptonicaTypes.html#TLeptonicaLoaderStatus">TLeptonicaLoaderStatus</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code><strong><a href="uLeptonicaLoader.TLeptonicaLoader.html#FLastErrorMessage">FLastErrorMessage</a></strong>: string;</code></td>
+</tr>
+</table>
+<span id="PasDoc-Methods"></span><h3 class="summary">Methods</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code>function <strong><a href="uLeptonicaLoader.TLeptonicaLoader.html#GetInitialized">GetInitialized</a></strong>: boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="uLeptonicaLoader.TLeptonicaLoader.html#FreeLeptonicaLibrary">FreeLeptonicaLibrary</a></strong>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>constructor <strong><a href="uLeptonicaLoader.TLeptonicaLoader.html#Create">Create</a></strong>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>destructor <strong><a href="uLeptonicaLoader.TLeptonicaLoader.html#Destroy">Destroy</a></strong>; override;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uLeptonicaLoader.TLeptonicaLoader.html#Initialize-string-">Initialize</a></strong>(const aLibraryPath: string) : boolean;</code></td>
+</tr>
+</table>
+<span id="PasDoc-Properties"></span><h3 class="summary">Properties</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uLeptonicaLoader.TLeptonicaLoader.html#SetCurrentDir">SetCurrentDir</a></strong>                     : boolean                                  read <a href="uLeptonicaLoader.TLeptonicaLoader.html#FSetCurrentDir">FSetCurrentDir</a>                     write <a href="uLeptonicaLoader.TLeptonicaLoader.html#FSetCurrentDir">FSetCurrentDir</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uLeptonicaLoader.TLeptonicaLoader.html#Status">Status</a></strong>                            : <a href="uLeptonicaTypes.html#TLeptonicaLoaderStatus">TLeptonicaLoaderStatus</a>                   read <a href="uLeptonicaLoader.TLeptonicaLoader.html#FStatus">FStatus</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uLeptonicaLoader.TLeptonicaLoader.html#Initialized">Initialized</a></strong>                       : boolean                                  read <a href="uLeptonicaLoader.TLeptonicaLoader.html#GetInitialized">GetInitialized</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uLeptonicaLoader.TLeptonicaLoader.html#ReRaiseExceptions">ReRaiseExceptions</a></strong>                 : boolean                                  read <a href="uLeptonicaLoader.TLeptonicaLoader.html#FReRaiseExceptions">FReRaiseExceptions</a>                 write <a href="uLeptonicaLoader.TLeptonicaLoader.html#FReRaiseExceptions">FReRaiseExceptions</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uLeptonicaLoader.TLeptonicaLoader.html#LastErrorMessage">LastErrorMessage</a></strong>                  : string                                   read <a href="uLeptonicaLoader.TLeptonicaLoader.html#FLastErrorMessage">FLastErrorMessage</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uLeptonicaLoader.TLeptonicaLoader.html#ShowMessageDlg">ShowMessageDlg</a></strong>                    : boolean                                  read <a href="uLeptonicaLoader.TLeptonicaLoader.html#FShowMessageDlg">FShowMessageDlg</a>                    write <a href="uLeptonicaLoader.TLeptonicaLoader.html#FShowMessageDlg">FShowMessageDlg</a>;</code></td>
+</tr>
+</table>
+<h2 class="description">Description</h2>
+<h3 class="detail">Fields</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="FLibHandle"></span><code><strong>FLibHandle</strong>: TLibHandle;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="FLibLoaded"></span><code><strong>FLibLoaded</strong>: boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="FReRaiseExceptions"></span><code><strong>FReRaiseExceptions</strong>: boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="FSetCurrentDir"></span><code><strong>FSetCurrentDir</strong>: boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="FShowMessageDlg"></span><code><strong>FShowMessageDlg</strong>: boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="FStatus"></span><code><strong>FStatus</strong>: <a href="uLeptonicaTypes.html#TLeptonicaLoaderStatus">TLeptonicaLoaderStatus</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="FLastErrorMessage"></span><code><strong>FLastErrorMessage</strong>: string;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<h3 class="detail">Methods</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="GetInitialized"></span><code>function <strong>GetInitialized</strong>: boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="FreeLeptonicaLibrary"></span><code>procedure <strong>FreeLeptonicaLibrary</strong>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Create"></span><code>constructor <strong>Create</strong>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Destroy"></span><code>destructor <strong>Destroy</strong>; override;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Initialize-string-"></span><code>function <strong>Initialize</strong>(const aLibraryPath: string) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<h3 class="detail">Properties</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="SetCurrentDir"></span><code>property <strong>SetCurrentDir</strong>                     : boolean                                  read <a href="uLeptonicaLoader.TLeptonicaLoader.html#FSetCurrentDir">FSetCurrentDir</a>                     write <a href="uLeptonicaLoader.TLeptonicaLoader.html#FSetCurrentDir">FSetCurrentDir</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Used to set the current directory when the libraries are loaded. This is required if the application is launched from a different application. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Status"></span><code>property <strong>Status</strong>                            : <a href="uLeptonicaTypes.html#TLeptonicaLoaderStatus">TLeptonicaLoaderStatus</a>                   read <a href="uLeptonicaLoader.TLeptonicaLoader.html#FStatus">FStatus</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Returns the TLeptonicaLoader initialization status. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Initialized"></span><code>property <strong>Initialized</strong>                       : boolean                                  read <a href="uLeptonicaLoader.TLeptonicaLoader.html#GetInitialized">GetInitialized</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Returns true if the loader has an initialized status. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="ReRaiseExceptions"></span><code>property <strong>ReRaiseExceptions</strong>                 : boolean                                  read <a href="uLeptonicaLoader.TLeptonicaLoader.html#FReRaiseExceptions">FReRaiseExceptions</a>                 write <a href="uLeptonicaLoader.TLeptonicaLoader.html#FReRaiseExceptions">FReRaiseExceptions</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Set to true to raise all exceptions. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="LastErrorMessage"></span><code>property <strong>LastErrorMessage</strong>                  : string                                   read <a href="uLeptonicaLoader.TLeptonicaLoader.html#FLastErrorMessage">FLastErrorMessage</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Last error message that is usually shown when there's an initialization problem. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="ShowMessageDlg"></span><code>property <strong>ShowMessageDlg</strong>                    : boolean                                  read <a href="uLeptonicaLoader.TLeptonicaLoader.html#FShowMessageDlg">FShowMessageDlg</a>                    write <a href="uLeptonicaLoader.TLeptonicaLoader.html#FShowMessageDlg">FShowMessageDlg</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Set to true when you need to use a showmessage dialog to show the error messages. </p>
+</td></tr>
+</table>
+<hr><span class="appinfo"><em>Generated by <a href="https://pasdoc.github.io/">PasDoc 0.17.0.snapshot</a>. </em>
+</span>
+</body></html>

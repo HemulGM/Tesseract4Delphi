@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <PathDelim Value="\"/>
+    <Name Value="Tesseract4Delphi"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Salvador Diaz Fau"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="..\source"/>
+        <OtherUnitFiles Value="..\source"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="Tesseract4Delphi"/>
+    <License Value="MIT"/>
+    <Version Major="1"/>
+    <Files>
+      <Item>
+        <Filename Value="..\source\tesseract.inc"/>
+        <Type Value="Include"/>
+      </Item>
+      <Item>
+        <Filename Value="..\source\uLeptonicaBox.pas"/>
+        <UnitName Value="uLeptonicaBox"/>
+      </Item>
+      <Item>
+        <Filename Value="..\source\uLeptonicaBoxArray.pas"/>
+        <UnitName Value="uLeptonicaBoxArray"/>
+      </Item>
+      <Item>
+        <Filename Value="..\source\uLeptonicaConstants.pas"/>
+        <UnitName Value="uLeptonicaConstants"/>
+      </Item>
+      <Item>
+        <Filename Value="..\source\uLeptonicaLibFunctions.pas"/>
+        <UnitName Value="uLeptonicaLibFunctions"/>
+      </Item>
+      <Item>
+        <Filename Value="..\source\uLeptonicaLoader.pas"/>
+        <UnitName Value="uLeptonicaLoader"/>
+      </Item>
+      <Item>
+        <Filename Value="..\source\uLeptonicaMiscFunctions.pas"/>
+        <UnitName Value="uLeptonicaMiscFunctions"/>
+      </Item>
+      <Item>
+        <Filename Value="..\source\uLeptonicaPix.pas"/>
+        <UnitName Value="uLeptonicaPix"/>
+      </Item>
+      <Item>
+        <Filename Value="..\source\uLeptonicaPixArray.pas"/>
+        <UnitName Value="uLeptonicaPixArray"/>
+      </Item>
+      <Item>
+        <Filename Value="..\source\uLeptonicaTypes.pas"/>
+        <UnitName Value="uLeptonicaTypes"/>
+      </Item>
+      <Item>
+        <Filename Value="..\source\uTesseractBaseAPI.pas"/>
+        <UnitName Value="uTesseractBaseAPI"/>
+      </Item>
+      <Item>
+        <Filename Value="..\source\uTesseractChoiceIterator.pas"/>
+        <UnitName Value="uTesseractChoiceIterator"/>
+      </Item>
+      <Item>
+        <Filename Value="..\source\uTesseractConstants.pas"/>
+        <UnitName Value="uTesseractConstants"/>
+      </Item>
+      <Item>
+        <Filename Value="..\source\uTesseractIntegerArray.pas"/>
+        <UnitName Value="uTesseractIntegerArray"/>
+      </Item>
+      <Item>
+        <Filename Value="..\source\uTesseractLibFunctions.pas"/>
+        <UnitName Value="uTesseractLibFunctions"/>
+      </Item>
+      <Item>
+        <Filename Value="..\source\uTesseractLoader.pas"/>
+        <UnitName Value="uTesseractLoader"/>
+      </Item>
+      <Item>
+        <Filename Value="..\source\uTesseractMiscFunctions.pas"/>
+        <UnitName Value="uTesseractMiscFunctions"/>
+      </Item>
+      <Item>
+        <Filename Value="..\source\uTesseractMonitor.pas"/>
+        <UnitName Value="uTesseractMonitor"/>
+      </Item>
+      <Item>
+        <Filename Value="..\source\uTesseractOCR.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="uTesseractOCR"/>
+      </Item>
+      <Item>
+        <Filename Value="..\source\uTesseractPageIterator.pas"/>
+        <UnitName Value="uTesseractPageIterator"/>
+      </Item>
+      <Item>
+        <Filename Value="..\source\uTesseractResultIterator.pas"/>
+        <UnitName Value="uTesseractResultIterator"/>
+      </Item>
+      <Item>
+        <Filename Value="..\source\uTesseractTypes.pas"/>
+        <UnitName Value="uTesseractTypes"/>
+      </Item>
+      <Item>
+        <Filename Value="..\source\uTesseractVersion.inc"/>
+        <Type Value="Include"/>
+      </Item>
+    </Files>
+    <RequiredPkgs>
+      <Item>
+        <PackageName Value="LCLBase"/>
+      </Item>
+      <Item>
+        <PackageName Value="FCL"/>
+      </Item>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

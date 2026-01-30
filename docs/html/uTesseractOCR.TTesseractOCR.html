@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>tesseract4delphi: uTesseractOCR: Class TTesseractOCR</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="PasDoc 0.17.0.snapshot">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="StyleSheet" type="text/css" href="pasdoc.css">
+</head>
+<body>
+<span id="TTesseractOCR"></span><h1 class="cio">Class TTesseractOCR</h1>
+<div class="sections">
+<div class="one_section"><a class="section" href="#PasDoc-Description">Description</a></div><div class="one_section"><a class="section" href="#PasDoc-Hierarchy">Hierarchy</a></div><div class="one_section"><a class="section" href="#PasDoc-Fields">Fields</a></div><div class="one_section"><a class="section" href="#PasDoc-Methods">Methods</a></div><div class="one_section"><a class="section" href="#PasDoc-Properties">Properties</a></div></div>
+<span id="PasDoc-Description"></span><h2 class="unit">Unit</h2>
+<p class="unitlink">
+<a href="uTesseractOCR.html">uTesseractOCR</a></p>
+<h2 class="declaration">Declaration</h2>
+<p class="declaration">
+<code>type TTesseractOCR = class(TComponent)</code></p>
+<h2 class="description">Description</h2>
+<p>
+ This is the main component you use in a form to handle all Tesseract methods and events. </p>
+<span id="PasDoc-Hierarchy"></span><h2 class="hierarchy">Hierarchy</h2>
+<ul class="hierarchy"><li class="ancestor">TObject</li>
+<li class="ancestor">TPersistent</li>
+<li class="ancestor">TComponent</li>
+<li class="thisitem">TTesseractOCR</li></ul><h2 class="overview">Overview</h2>
+<span id="PasDoc-Fields"></span><h3 class="summary">Fields</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code><strong><a href="uTesseractOCR.TTesseractOCR.html#FBaseAPI">FBaseAPI</a></strong>: <a href="uTesseractBaseAPI.TTesseractBaseAPI.html">TTesseractBaseAPI</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code><strong><a href="uTesseractOCR.TTesseractOCR.html#FMonitor">FMonitor</a></strong>: <a href="uTesseractMonitor.TTesseractMonitor.html">TTesseractMonitor</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code><strong><a href="uTesseractOCR.TTesseractOCR.html#FOnCancel">FOnCancel</a></strong>: <a href="uTesseractOCR.html#TOnCancelEvent">TOnCancelEvent</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code><strong><a href="uTesseractOCR.TTesseractOCR.html#FOnProgress">FOnProgress</a></strong>: <a href="uTesseractOCR.html#TOnProgressEvent">TOnProgressEvent</a>;</code></td>
+</tr>
+</table>
+<span id="PasDoc-Methods"></span><h3 class="summary">Methods</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractOCR.TTesseractOCR.html#GetInitialized">GetInitialized</a></strong>: boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="uTesseractOCR.TTesseractOCR.html#doOnCancelEvent-integer-boolean-">doOnCancelEvent</a></strong>(aWords: integer; var aResult: boolean); virtual;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="uTesseractOCR.TTesseractOCR.html#doOnProgressEvent-integer-integer-integer-integer-">doOnProgressEvent</a></strong>(aLeft, aRight, aTop, aBottom: integer); virtual;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="uTesseractOCR.TTesseractOCR.html#InitializeLeptonica-string-">InitializeLeptonica</a></strong>(const aLeptonicaLib : string); virtual;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="uTesseractOCR.TTesseractOCR.html#InitializeTesseract-string-">InitializeTesseract</a></strong>(const aTesseractLib : string); virtual;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="uTesseractOCR.TTesseractOCR.html#InitializeBaseAPI-string-string-">InitializeBaseAPI</a></strong>(const aDatapath, aLanguage : string); virtual;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="uTesseractOCR.TTesseractOCR.html#InitializeMonitor">InitializeMonitor</a></strong>; virtual;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>constructor <strong><a href="uTesseractOCR.TTesseractOCR.html#Create-TComponent-">Create</a></strong>(AOwner: TComponent); override;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>destructor <strong><a href="uTesseractOCR.TTesseractOCR.html#Destroy">Destroy</a></strong>; override;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="uTesseractOCR.TTesseractOCR.html#BeforeDestruction">BeforeDestruction</a></strong>; override;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractOCR.TTesseractOCR.html#Initialize-string-string-string-string-">Initialize</a></strong>(const aLeptonicaLib, aTesseractLib, aDatapath, aLanguage : string) : boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractOCR.TTesseractOCR.html#Recognize">Recognize</a></strong>: boolean;</code></td>
+</tr>
+</table>
+<span id="PasDoc-Properties"></span><h3 class="summary">Properties</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uTesseractOCR.TTesseractOCR.html#BaseAPI">BaseAPI</a></strong>         : <a href="uTesseractBaseAPI.TTesseractBaseAPI.html">TTesseractBaseAPI</a>    read <a href="uTesseractOCR.TTesseractOCR.html#FBaseAPI">FBaseAPI</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uTesseractOCR.TTesseractOCR.html#Monitor">Monitor</a></strong>         : <a href="uTesseractMonitor.TTesseractMonitor.html">TTesseractMonitor</a>    read <a href="uTesseractOCR.TTesseractOCR.html#FMonitor">FMonitor</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uTesseractOCR.TTesseractOCR.html#Initialized">Initialized</a></strong>     : boolean              read <a href="uTesseractOCR.TTesseractOCR.html#GetInitialized">GetInitialized</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="published.gif" alt="Published" title="Published"></a></td>
+<td class="itemcode"><code>property <strong><a href="uTesseractOCR.TTesseractOCR.html#OnCancel">OnCancel</a></strong>        : <a href="uTesseractOCR.html#TOnCancelEvent">TOnCancelEvent</a>       read <a href="uTesseractOCR.TTesseractOCR.html#FOnCancel">FOnCancel</a>         write <a href="uTesseractOCR.TTesseractOCR.html#FOnCancel">FOnCancel</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="published.gif" alt="Published" title="Published"></a></td>
+<td class="itemcode"><code>property <strong><a href="uTesseractOCR.TTesseractOCR.html#OnProgress">OnProgress</a></strong>      : <a href="uTesseractOCR.html#TOnProgressEvent">TOnProgressEvent</a>     read <a href="uTesseractOCR.TTesseractOCR.html#FOnProgress">FOnProgress</a>       write <a href="uTesseractOCR.TTesseractOCR.html#FOnProgress">FOnProgress</a>;</code></td>
+</tr>
+</table>
+<h2 class="description">Description</h2>
+<h3 class="detail">Fields</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="FBaseAPI"></span><code><strong>FBaseAPI</strong>: <a href="uTesseractBaseAPI.TTesseractBaseAPI.html">TTesseractBaseAPI</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="FMonitor"></span><code><strong>FMonitor</strong>: <a href="uTesseractMonitor.TTesseractMonitor.html">TTesseractMonitor</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="FOnCancel"></span><code><strong>FOnCancel</strong>: <a href="uTesseractOCR.html#TOnCancelEvent">TOnCancelEvent</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="FOnProgress"></span><code><strong>FOnProgress</strong>: <a href="uTesseractOCR.html#TOnProgressEvent">TOnProgressEvent</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<h3 class="detail">Methods</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="GetInitialized"></span><code>function <strong>GetInitialized</strong>: boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="doOnCancelEvent-integer-boolean-"></span><code>procedure <strong>doOnCancelEvent</strong>(aWords: integer; var aResult: boolean); virtual;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="doOnProgressEvent-integer-integer-integer-integer-"></span><code>procedure <strong>doOnProgressEvent</strong>(aLeft, aRight, aTop, aBottom: integer); virtual;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="InitializeLeptonica-string-"></span><code>procedure <strong>InitializeLeptonica</strong>(const aLeptonicaLib : string); virtual;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="InitializeTesseract-string-"></span><code>procedure <strong>InitializeTesseract</strong>(const aTesseractLib : string); virtual;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="InitializeBaseAPI-string-string-"></span><code>procedure <strong>InitializeBaseAPI</strong>(const aDatapath, aLanguage : string); virtual;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="InitializeMonitor"></span><code>procedure <strong>InitializeMonitor</strong>; virtual;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Create-TComponent-"></span><code>constructor <strong>Create</strong>(AOwner: TComponent); override;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Destroy"></span><code>destructor <strong>Destroy</strong>; override;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="BeforeDestruction"></span><code>procedure <strong>BeforeDestruction</strong>; override;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Initialize-string-string-string-string-"></span><code>function <strong>Initialize</strong>(const aLeptonicaLib, aTesseractLib, aDatapath, aLanguage : string) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Initalizes all the libraries and the TTesseractBaseAPI instance. </p>
+<p>
+ 
+
+<p>
+
+<p>
+
+<p></p>
+<h6 class="description_section">Parameters</h6>
+<dl class="parameters">
+<dt>aLeptonicaLib</dt>
+<dd>Path to the Leptonica library.</dd>
+<dt>aTesseractLib</dt>
+<dd>Path to the Tesseract library.</dd>
+<dt>aDatapath</dt>
+<dd>Path to the tessdata directory.</dd>
+<dt>aLanguage</dt>
+<dd>The language is (usually) an ISO 639-3 string or empty will default to eng.</dd>
+</dl>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Recognize"></span><code>function <strong>Recognize</strong>: boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Recognize the image from SetAndThresholdImage, generating Tesseract internal structures. Optional. The Get*Text functions below will call Recognize if needed. After Recognize, the output is kept internally until the next SetImage. </p>
+</td></tr>
+</table>
+<h3 class="detail">Properties</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="BaseAPI"></span><code>property <strong>BaseAPI</strong>         : <a href="uTesseractBaseAPI.TTesseractBaseAPI.html">TTesseractBaseAPI</a>    read <a href="uTesseractOCR.TTesseractOCR.html#FBaseAPI">FBaseAPI</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Returns the TTesseractBaseAPI instance. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Monitor"></span><code>property <strong>Monitor</strong>         : <a href="uTesseractMonitor.TTesseractMonitor.html">TTesseractMonitor</a>    read <a href="uTesseractOCR.TTesseractOCR.html#FMonitor">FMonitor</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Returns the TTesseractMonitor instance. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Initialized"></span><code>property <strong>Initialized</strong>     : boolean              read <a href="uTesseractOCR.TTesseractOCR.html#GetInitialized">GetInitialized</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Returns true if all the loaders, the base api and the monitor are initialized. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="published.gif" alt="Published" title="Published"></a></td>
+<td class="itemcode"><span id="OnCancel"></span><code>property <strong>OnCancel</strong>        : <a href="uTesseractOCR.html#TOnCancelEvent">TOnCancelEvent</a>       read <a href="uTesseractOCR.TTesseractOCR.html#FOnCancel">FOnCancel</a>         write <a href="uTesseractOCR.TTesseractOCR.html#FOnCancel">FOnCancel</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+
+
+<p>Event triggered during the call to TTesseractBaseAPI.Recognize with the number of user words found.
+
+<p>Set aResult to True to cancel the operation.
+
+<p></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="published.gif" alt="Published" title="Published"></a></td>
+<td class="itemcode"><span id="OnProgress"></span><code>property <strong>OnProgress</strong>      : <a href="uTesseractOCR.html#TOnProgressEvent">TOnProgressEvent</a>     read <a href="uTesseractOCR.TTesseractOCR.html#FOnProgress">FOnProgress</a>       write <a href="uTesseractOCR.TTesseractOCR.html#FOnProgress">FOnProgress</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+
+
+<p>Event triggered during the call to TTesseractBaseAPI.Recognize with information about the progress and the bounding box of the word that is currently being processed.
+
+<p>Progress starts at 0 and increases to 100 during OCR.
+
+<p></p>
+</td></tr>
+</table>
+<hr><span class="appinfo"><em>Generated by <a href="https://pasdoc.github.io/">PasDoc 0.17.0.snapshot</a>. </em>
+</span>
+</body></html>

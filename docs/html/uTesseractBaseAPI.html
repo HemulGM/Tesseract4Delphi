@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>tesseract4delphi: uTesseractBaseAPI</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="PasDoc 0.17.0.snapshot">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="StyleSheet" type="text/css" href="pasdoc.css">
+</head>
+<body>
+<h1 class="unit">Unit uTesseractBaseAPI</h1>
+<div class="sections">
+<div class="one_section"><a class="section" href="#PasDoc-Description">Description</a></div><div class="one_section">Uses</div><div class="one_section"><a class="section" href="#PasDoc-Classes">Classes, Interfaces, Objects and Records</a></div><div class="one_section">Functions and Procedures</div><div class="one_section">Types</div><div class="one_section">Constants</div><div class="one_section">Variables</div></div>
+<span id="PasDoc-Description"></span><h2 class="description">Description</h2>
+<p class="nodescription">This item has no description.</p><span id="PasDoc-Uses"></span><h2 class="overview">Overview</h2>
+<span id="PasDoc-Classes"></span><h3 class="cio">Classes, Interfaces, Objects and Records</h3>
+<table class="classestable wide_list">
+<tr class="listheader">
+<th class="itemname">Name</th>
+<th class="itemdesc">Description</th>
+</tr>
+<tr class="list">
+<td class="itemname">Class&nbsp;<a class="bold" href="uTesseractBaseAPI.TTesseractBaseAPI.html"><code>TTesseractBaseAPI</code></a></td>
+<td class="itemdesc">
+
+<p>Base class for all tesseract APIs.
+
+<p>Specific classes can add ability to work on different inputs or produce different outputs.
+
+<p>This class is mostly an interface layer on top of the Tesseract instance class to hide the data types so that users of this class don't have to include any other Tesseract headers.
+
+<p></td>
+</tr>
+<tr class="list2">
+<td class="itemname">Class&nbsp;<a class="bold" href="uTesseractBaseAPI.TTesseractResultRenderer.html"><code>TTesseractResultRenderer</code></a></td>
+<td class="itemdesc">
+
+<p>Interface for rendering tesseract results into a document, such as text, HOCR or pdf. This class is abstract. Specific classes handle individual formats. This interface is then used to inject the renderer class into tesseract when processing images.
+
+<p>For simplicity implementing this with tesseract version 3.01, the renderer contains document state that is cleared from document to document just as the TessBaseAPI is. This way the base API can just delegate its rendering functionality to injected renderers, and the renderers can manage the associated state needed for the specific formats in addition to the heuristics for producing it.
+
+<p></td>
+</tr>
+<tr class="list">
+<td class="itemname">Class&nbsp;<a class="bold" href="uTesseractBaseAPI.TTesseractTextRenderer.html"><code>TTesseractTextRenderer</code></a></td>
+<td class="itemdesc"> Renders tesseract output into a plain text string. </td>
+</tr>
+<tr class="list2">
+<td class="itemname">Class&nbsp;<a class="bold" href="uTesseractBaseAPI.TTesseractHOcrRenderer.html"><code>TTesseractHOcrRenderer</code></a></td>
+<td class="itemdesc"> Renders tesseract output into an hocr text string. </td>
+</tr>
+<tr class="list">
+<td class="itemname">Class&nbsp;<a class="bold" href="uTesseractBaseAPI.TTesseractAltoRenderer.html"><code>TTesseractAltoRenderer</code></a></td>
+<td class="itemdesc"> Renders tesseract output into an alto text string. </td>
+</tr>
+<tr class="list2">
+<td class="itemname">Class&nbsp;<a class="bold" href="uTesseractBaseAPI.TTesseractPAGERenderer.html"><code>TTesseractPAGERenderer</code></a></td>
+<td class="itemdesc"> Renders Tesseract output into a PAGE XML text string. </td>
+</tr>
+<tr class="list">
+<td class="itemname">Class&nbsp;<a class="bold" href="uTesseractBaseAPI.TTesseractTsvRenderer.html"><code>TTesseractTsvRenderer</code></a></td>
+<td class="itemdesc"> Renders Tesseract output into a TSV string. </td>
+</tr>
+<tr class="list2">
+<td class="itemname">Class&nbsp;<a class="bold" href="uTesseractBaseAPI.TTesseractPDFRenderer.html"><code>TTesseractPDFRenderer</code></a></td>
+<td class="itemdesc"> Renders tesseract output into searchable PDF. </td>
+</tr>
+<tr class="list">
+<td class="itemname">Class&nbsp;<a class="bold" href="uTesseractBaseAPI.TTesseractUnlvRenderer.html"><code>TTesseractUnlvRenderer</code></a></td>
+<td class="itemdesc"> Renders tesseract output into a plain text string. </td>
+</tr>
+<tr class="list2">
+<td class="itemname">Class&nbsp;<a class="bold" href="uTesseractBaseAPI.TTesseractBoxTextRenderer.html"><code>TTesseractBoxTextRenderer</code></a></td>
+<td class="itemdesc"> Renders tesseract output into a plain text string. </td>
+</tr>
+<tr class="list">
+<td class="itemname">Class&nbsp;<a class="bold" href="uTesseractBaseAPI.TTesseractLSTMBoxRenderer.html"><code>TTesseractLSTMBoxRenderer</code></a></td>
+<td class="itemdesc"> Renders tesseract output into a plain text string for LSTMBox. </td>
+</tr>
+<tr class="list2">
+<td class="itemname">Class&nbsp;<a class="bold" href="uTesseractBaseAPI.TTesseractWordStrBoxRenderer.html"><code>TTesseractWordStrBoxRenderer</code></a></td>
+<td class="itemdesc"> Renders tesseract output into a plain text string in WordStr format. </td>
+</tr>
+</table>
+<hr><span class="appinfo"><em>Generated by <a href="https://pasdoc.github.io/">PasDoc 0.17.0.snapshot</a>. </em>
+</span>
+</body></html>

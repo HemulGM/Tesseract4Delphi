@@ -1,0 +1,1323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>tesseract4delphi: uTesseractBaseAPI: Class TTesseractBaseAPI</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="PasDoc 0.17.0.snapshot">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="StyleSheet" type="text/css" href="pasdoc.css">
+</head>
+<body>
+<span id="TTesseractBaseAPI"></span><h1 class="cio">Class TTesseractBaseAPI</h1>
+<div class="sections">
+<div class="one_section"><a class="section" href="#PasDoc-Description">Description</a></div><div class="one_section"><a class="section" href="#PasDoc-Hierarchy">Hierarchy</a></div><div class="one_section">Fields</div><div class="one_section"><a class="section" href="#PasDoc-Methods">Methods</a></div><div class="one_section"><a class="section" href="#PasDoc-Properties">Properties</a></div></div>
+<span id="PasDoc-Description"></span><h2 class="unit">Unit</h2>
+<p class="unitlink">
+<a href="uTesseractBaseAPI.html">uTesseractBaseAPI</a></p>
+<h2 class="declaration">Declaration</h2>
+<p class="declaration">
+<code>type TTesseractBaseAPI = class(TObject)</code></p>
+<h2 class="description">Description</h2>
+<p>
+
+
+<p>Base class for all tesseract APIs.
+
+<p>Specific classes can add ability to work on different inputs or produce different outputs.
+
+<p>This class is mostly an interface layer on top of the Tesseract instance class to hide the data types so that users of this class don't have to include any other Tesseract headers.
+
+<p></p>
+<span id="PasDoc-Hierarchy"></span><h2 class="hierarchy">Hierarchy</h2>
+<ul class="hierarchy"><li class="ancestor">TObject</li>
+<li class="thisitem">TTesseractBaseAPI</li></ul><h2 class="overview">Overview</h2>
+<span id="PasDoc-Methods"></span><h3 class="summary">Methods</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>constructor <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#Create">Create</a></strong>; overload;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>constructor <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#Create-TessBaseAPI-">Create</a></strong>(aHandle: <a href="uTesseractTypes.html#TessBaseAPI">TessBaseAPI</a>); overload;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>destructor <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#Destroy">Destroy</a></strong>; override;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#SetVariable-string-string-">SetVariable</a></strong>(const name_, value_ : string) : boolean;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#SetDebugVariable-string-string-">SetDebugVariable</a></strong>(const name_, value_ : string) : boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetIntVariable-string-Integer-">GetIntVariable</a></strong>(const name_ : string; out value_ : Integer) : boolean;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetBoolVariable-string-boolean-">GetBoolVariable</a></strong>(const name_ : string; out value_ : boolean) : boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetDoubleVariable-string-double-">GetDoubleVariable</a></strong>(const name_ : string; out value_ : double) : boolean;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetStringVariable-string-">GetStringVariable</a></strong>(const name_ : string) : string;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#PrintVariables-PFileDescriptor-">PrintVariables</a></strong>(fp: <a href="uTesseractTypes.html#PFileDescriptor">PFileDescriptor</a>) : boolean;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#PrintVariablesToFile-string-">PrintVariablesToFile</a></strong>(const filename : string) : boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#Init-string-string-TessOcrEngineMode-TStringList-TStringList-TStringList-boolean-">Init</a></strong>(const datapath, language: string; mode: <a href="uTesseractTypes.html#TessOcrEngineMode">TessOcrEngineMode</a>; const configs, vars_vec, vars_values: TStringList; set_only_non_debug_params: boolean) : boolean; overload;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#Init-TStream-string-TessOcrEngineMode-TStringList-TStringList-TStringList-boolean-">Init</a></strong>(const data: TStream; const language: string; mode: <a href="uTesseractTypes.html#TessOcrEngineMode">TessOcrEngineMode</a>; const configs, vars_vec, vars_values: TStringList; set_only_non_debug_params: boolean) : boolean; overload;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#Init-string-string-TessOcrEngineMode-TStringList-">Init</a></strong>(const datapath, language: string; oem: <a href="uTesseractTypes.html#TessOcrEngineMode">TessOcrEngineMode</a>; const configs: TStringList = nil) : boolean; overload;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#Init-string-string-">Init</a></strong>(const datapath, language: string) : boolean; overload;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#InitForAnalysePage">InitForAnalysePage</a></strong>: boolean;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetLoadedLanguagesAsVector">GetLoadedLanguagesAsVector</a></strong>: TStringList;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetAvailableLanguagesAsVector">GetAvailableLanguagesAsVector</a></strong>: TStringList;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#IsLanguageLoaded-string-">IsLanguageLoaded</a></strong>(const aLanguage: string): Boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#ReadConfigFile-string-">ReadConfigFile</a></strong>(const filename : string) : boolean;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#ReadDebugConfigFile-string-">ReadDebugConfigFile</a></strong>(const filename : string) : boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#TesseractRect-TStream-Integer-Integer-Integer-Integer-Integer-Integer-">TesseractRect</a></strong>(const imagedata: TStream; bytes_per_pixel, bytes_per_line, left, top, width, height: Integer) : string;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#ClearAdaptiveClassifier">ClearAdaptiveClassifier</a></strong>: boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#SetImage-TStream-Integer-Integer-Integer-Integer-">SetImage</a></strong>(const imagedata: TStream; width, height, bytes_per_pixel, bytes_per_line: Integer) : boolean; overload;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#SetImage-TLeptonicaPix-">SetImage</a></strong>(const pix: <a href="uLeptonicaPix.TLeptonicaPix.html">TLeptonicaPix</a>) : boolean; overload;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#SetImage-string-">SetImage</a></strong>(const aFilename : string) : boolean; overload;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#SetSourceResolution-Integer-">SetSourceResolution</a></strong>(ppi: Integer) : boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#SetRectangle-Integer-Integer-Integer-Integer-">SetRectangle</a></strong>(left, top, width, height: Integer) : boolean;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetRegions-TLeptonicaPixClassArray-TRectArray-">GetRegions</a></strong>(var pixs : <a href="uLeptonicaPix.html#TLeptonicaPixClassArray">TLeptonicaPixClassArray</a>; var boxes : <a href="uLeptonicaTypes.html#TRectArray">TRectArray</a>) : boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetTextlines-boolean-integer-TLeptonicaPixClassArray-TIntegerArray-TIntegerArray-TRectArray-">GetTextlines</a></strong>(raw_image: boolean; raw_padding: integer; var pixs : <a href="uLeptonicaPix.html#TLeptonicaPixClassArray">TLeptonicaPixClassArray</a>; var blockids, paraids : <a href="uLeptonicaTypes.html#TIntegerArray">TIntegerArray</a>; var boxes : <a href="uLeptonicaTypes.html#TRectArray">TRectArray</a>) : boolean; overload;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetTextlines-TLeptonicaPixClassArray-TIntegerArray-TRectArray-">GetTextlines</a></strong>(var pixs : <a href="uLeptonicaPix.html#TLeptonicaPixClassArray">TLeptonicaPixClassArray</a>; var blockids : <a href="uLeptonicaTypes.html#TIntegerArray">TIntegerArray</a>; var boxes : <a href="uLeptonicaTypes.html#TRectArray">TRectArray</a>) : boolean; overload;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetTextlines-TLeptonicaPixClassArray-TRectArray-">GetTextlines</a></strong>(var pixs : <a href="uLeptonicaPix.html#TLeptonicaPixClassArray">TLeptonicaPixClassArray</a>; var boxes : <a href="uLeptonicaTypes.html#TRectArray">TRectArray</a>) : boolean; overload;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetStrips-TLeptonicaPixClassArray-TIntegerArray-TRectArray-">GetStrips</a></strong>(var pixs : <a href="uLeptonicaPix.html#TLeptonicaPixClassArray">TLeptonicaPixClassArray</a>; var blockids : <a href="uLeptonicaTypes.html#TIntegerArray">TIntegerArray</a>; var boxes : <a href="uLeptonicaTypes.html#TRectArray">TRectArray</a>) : boolean; overload;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetStrips-TLeptonicaPixClassArray-TRectArray-">GetStrips</a></strong>(var pixs : <a href="uLeptonicaPix.html#TLeptonicaPixClassArray">TLeptonicaPixClassArray</a>; var boxes : <a href="uLeptonicaTypes.html#TRectArray">TRectArray</a>) : boolean; overload;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetWords-TLeptonicaPixClassArray-TRectArray-">GetWords</a></strong>(var pixs : <a href="uLeptonicaPix.html#TLeptonicaPixClassArray">TLeptonicaPixClassArray</a>; var boxes : <a href="uLeptonicaTypes.html#TRectArray">TRectArray</a>) : boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetConnectedComponents-TLeptonicaPixClassArray-TRectArray-">GetConnectedComponents</a></strong>(var pixs : <a href="uLeptonicaPix.html#TLeptonicaPixClassArray">TLeptonicaPixClassArray</a>; var boxes : <a href="uLeptonicaTypes.html#TRectArray">TRectArray</a>) : boolean;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetComponentImages-TessPageIteratorLevel-boolean-boolean-Integer-TLeptonicaPixClassArray-TIntegerArray-TIntegerArray-TRectArray-">GetComponentImages</a></strong>(level: <a href="uTesseractTypes.html#TessPageIteratorLevel">TessPageIteratorLevel</a>; text_only, raw_image: boolean; raw_padding: Integer; var pixs : <a href="uLeptonicaPix.html#TLeptonicaPixClassArray">TLeptonicaPixClassArray</a>; var blockids, paraids : <a href="uLeptonicaTypes.html#TIntegerArray">TIntegerArray</a>; var boxes : <a href="uLeptonicaTypes.html#TRectArray">TRectArray</a>) : boolean; overload;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetComponentImages-TessPageIteratorLevel-boolean-TLeptonicaPixClassArray-TIntegerArray-TRectArray-">GetComponentImages</a></strong>(level: <a href="uTesseractTypes.html#TessPageIteratorLevel">TessPageIteratorLevel</a>; text_only: boolean; var pixs : <a href="uLeptonicaPix.html#TLeptonicaPixClassArray">TLeptonicaPixClassArray</a>; var blockids : <a href="uLeptonicaTypes.html#TIntegerArray">TIntegerArray</a>; var boxes : <a href="uLeptonicaTypes.html#TRectArray">TRectArray</a>) : boolean; overload;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#AnalyseLayout">AnalyseLayout</a></strong>: <a href="uTesseractPageIterator.TTesseractPageIterator.html">TTesseractPageIterator</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#Recognize-TTesseractMonitor-">Recognize</a></strong>(const monitor : <a href="uTesseractMonitor.TTesseractMonitor.html">TTesseractMonitor</a> = nil) : boolean;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#ProcessPages-string-string-Integer-TTesseractResultRenderer-">ProcessPages</a></strong>(const filename, retry_config: string; timeout_millisec: Integer; const renderer: <a href="uTesseractBaseAPI.TTesseractResultRenderer.html">TTesseractResultRenderer</a>) : boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#ProcessPage-TLeptonicaPix-Integer-string-string-Integer-TTesseractResultRenderer-">ProcessPage</a></strong>(var pix: <a href="uLeptonicaPix.TLeptonicaPix.html">TLeptonicaPix</a>; page_index: Integer; const filename, retry_config: string; timeout_millisec: Integer; const renderer: <a href="uTesseractBaseAPI.TTesseractResultRenderer.html">TTesseractResultRenderer</a>) : boolean;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetText">GetText</a></strong>: string;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetUTF8Text">GetUTF8Text</a></strong>: UTF8String;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetHOCRText-Integer-">GetHOCRText</a></strong>(page_number: Integer) : string;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetAltoText-Integer-">GetAltoText</a></strong>(page_number: Integer) : string;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetPAGEText-Integer-">GetPAGEText</a></strong>(page_number: Integer) : string;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetTsvText-Integer-">GetTsvText</a></strong>(page_number: Integer) : string;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetBoxText-Integer-">GetBoxText</a></strong>(page_number: Integer) : string;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetLSTMBoxText-Integer-">GetLSTMBoxText</a></strong>(page_number: Integer) : string;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetWordStrBoxText-Integer-">GetWordStrBoxText</a></strong>(page_number: Integer) : string;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetUNLVText">GetUNLVText</a></strong>: string;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#MeanTextConf">MeanTextConf</a></strong>: integer;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#AllWordConfidences-TIntegerArray-">AllWordConfidences</a></strong>(var confidences : <a href="uLeptonicaTypes.html#TIntegerArray">TIntegerArray</a>) : boolean;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#AdaptToWordStr-TessPageSegMode-string-">AdaptToWordStr</a></strong>(mode: <a href="uTesseractTypes.html#TessPageSegMode">TessPageSegMode</a>; const wordstr: string) : boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#Clear">Clear</a></strong>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#End_">End_</a></strong>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#IsValidWord-string-">IsValidWord</a></strong>(const word : string) : boolean;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetTextDirection-Integer-single-">GetTextDirection</a></strong>(out out_offset: Integer; out out_slope: single) : boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetUnichar-Integer-">GetUnichar</a></strong>(unichar_id: Integer): string;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#ClearPersistentCache">ClearPersistentCache</a></strong>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#DetectOrientationScript-Integer-Single-string-Single-">DetectOrientationScript</a></strong>(out orient_deg: Integer; out orient_conf: Single; out script_name: string; out script_conf: Single) : boolean;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#SetMinOrientationMargin-double-">SetMinOrientationMargin</a></strong>(margin: double);</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#NumDawgs">NumDawgs</a></strong>: integer;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#Oem">Oem</a></strong>: <a href="uTesseractTypes.html#TessOcrEngineMode">TessOcrEngineMode</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#GetBlockTextOrientations-TIntegerArray-TBooleanArray-">GetBlockTextOrientations</a></strong>(var block_orientation: <a href="uLeptonicaTypes.html#TIntegerArray">TIntegerArray</a>; var vertical_writing: <a href="uLeptonicaTypes.html#TBooleanArray">TBooleanArray</a>) : boolean;</code></td>
+</tr>
+</table>
+<span id="PasDoc-Properties"></span><h3 class="summary">Properties</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#Handle">Handle</a></strong>                      : <a href="uTesseractTypes.html#TessBaseAPI">TessBaseAPI</a>               read FHandle;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#Initialized">Initialized</a></strong>                 : boolean                   read GetInitialized;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#Version">Version</a></strong>                     : string                    read GetVersion;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#InputName">InputName</a></strong>                   : string                    read GetInputName                               write SetInputName;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#InputImage">InputImage</a></strong>                  : <a href="uLeptonicaPix.TLeptonicaPix.html">TLeptonicaPix</a>             read GetInputImage                              write SetInputImage;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#SourceYResolution">SourceYResolution</a></strong>           : integer                   read GetSourceYResolution;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#Datapath">Datapath</a></strong>                    : string                    read GetDatapath;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#OutputName">OutputName</a></strong>                  : string                    write SetOutputName;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#InitLanguagesAsString">InitLanguagesAsString</a></strong>       : string                    read GetInitLanguagesAsString;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#PageSegMode">PageSegMode</a></strong>                 : <a href="uTesseractTypes.html#TessPageSegMode">TessPageSegMode</a>           read GetPageSegMode                             write SetPageSegMode;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#ThresholdedImage">ThresholdedImage</a></strong>            : <a href="uLeptonicaPix.TLeptonicaPix.html">TLeptonicaPix</a>             read GetThresholdedImage;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#Gradient">Gradient</a></strong>                    : single                    read GetGradient;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#ThresholdedImageScaleFactor">ThresholdedImageScaleFactor</a></strong> : integer                   read GetThresholdedImageScaleFactor;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#Iterator">Iterator</a></strong>                    : <a href="uTesseractResultIterator.TTesseractResultIterator.html">TTesseractResultIterator</a>  read GetIterator;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uTesseractBaseAPI.TTesseractBaseAPI.html#ErrorMessage">ErrorMessage</a></strong>                : string                    read FErrorMessage;</code></td>
+</tr>
+</table>
+<h2 class="description">Description</h2>
+<h3 class="detail">Methods</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Create"></span><code>constructor <strong>Create</strong>; overload;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Create-TessBaseAPI-"></span><code>constructor <strong>Create</strong>(aHandle: <a href="uTesseractTypes.html#TessBaseAPI">TessBaseAPI</a>); overload;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Destroy"></span><code>destructor <strong>Destroy</strong>; override;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="SetVariable-string-string-"></span><code>function <strong>SetVariable</strong>(const name_, value_ : string) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+
+
+<p>Set the value of an internal &quot;parameter.&quot;
+
+<p>Supply the name of the parameter and the value as a string, just as you would in a config file.
+
+<p>Returns false if the name lookup failed.
+
+<p>Eg SetVariable(&quot;tessedit_char_blacklist&quot;, &quot;xyz&quot;); to ignore x, y and z. Or SetVariable(&quot;classify_bln_numeric_mode&quot;, &quot;1&quot;); to set numeric-only mode. SetVariable may be used before Init, but settings will revert to defaults on End().
+
+<p>Note: Must be called after Init(). Only works for non-init variables (init variables should be passed to Init()).
+
+<p></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="SetDebugVariable-string-string-"></span><code>function <strong>SetDebugVariable</strong>(const name_, value_ : string) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetIntVariable-string-Integer-"></span><code>function <strong>GetIntVariable</strong>(const name_ : string; out value_ : Integer) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Returns true if the parameter was found among Tesseract parameters. Fills in value_ with the value of the parameter. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetBoolVariable-string-boolean-"></span><code>function <strong>GetBoolVariable</strong>(const name_ : string; out value_ : boolean) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Returns true if the parameter was found among Tesseract parameters. Fills in value_ with the value of the parameter. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetDoubleVariable-string-double-"></span><code>function <strong>GetDoubleVariable</strong>(const name_ : string; out value_ : double) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Returns true if the parameter was found among Tesseract parameters. Fills in value_ with the value of the parameter. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetStringVariable-string-"></span><code>function <strong>GetStringVariable</strong>(const name_ : string) : string;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Returns the string that represents the value of the parameter if it was found among Tesseract parameters. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="PrintVariables-PFileDescriptor-"></span><code>function <strong>PrintVariables</strong>(fp: <a href="uTesseractTypes.html#PFileDescriptor">PFileDescriptor</a>) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Print Tesseract parameters to the given file. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="PrintVariablesToFile-string-"></span><code>function <strong>PrintVariablesToFile</strong>(const filename : string) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Print Tesseract parameters to the given file. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Init-string-string-TessOcrEngineMode-TStringList-TStringList-TStringList-boolean-"></span><code>function <strong>Init</strong>(const datapath, language: string; mode: <a href="uTesseractTypes.html#TessOcrEngineMode">TessOcrEngineMode</a>; const configs, vars_vec, vars_values: TStringList; set_only_non_debug_params: boolean) : boolean; overload;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+
+
+<p>Start tesseract. Returns true on success and false on failure.
+
+<p>Instances are now mostly thread-safe and totally independent, but some global parameters remain. Basically it is safe to use multiple TessBaseAPIs in different threads in parallel, UNLESS: you use SetVariable on some of the Params in classify and textord. If you do, then the effect will be to change it for all your instances.
+
+<p>The datapath must be the name of the tessdata directory.
+
+<p>The language is (usually) an ISO 639-3 string or empty will default to eng. It is entirely safe (and eventually will be efficient too) to call Init multiple times on the same instance to change language, or just to reset the classifier.
+
+<p>The language may be a string of the form [~]&lt;lang&gt;[+[~]&lt;lang&gt;]* indicating that multiple languages are to be loaded. Eg hin+eng will load Hindi and English. Languages may specify internally that they want to be loaded with one or more other languages, so the ~ sign is available to override that. Eg if hin were set to load eng by default, then hin+~eng would force loading only hin. The number of loaded languages is limited only by memory, with the caveat that loading additional languages will impact both speed and accuracy, as there is more work to do to decide on the applicable language, and there is more chance of hallucinating incorrect words.
+
+<p>WARNING: On changing languages, all Tesseract parameters are reset back to their default values. (Which may vary between languages.) If you have a rare need to set a Variable that controls initialization for a second call to Init you should explicitly call End() and then use SetVariable before Init. This is only a very rare use case, since there are very few uses that require any parameters to be set before Init.
+
+<p>If set_only_non_debug_params is true, only params that do not contain &quot;debug&quot; in the name will be set.
+
+<p></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Init-TStream-string-TessOcrEngineMode-TStringList-TStringList-TStringList-boolean-"></span><code>function <strong>Init</strong>(const data: TStream; const language: string; mode: <a href="uTesseractTypes.html#TessOcrEngineMode">TessOcrEngineMode</a>; const configs, vars_vec, vars_values: TStringList; set_only_non_debug_params: boolean) : boolean; overload;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ In-memory version reads the trained data file directly from the given data stream, and/or reads data via a FileReader. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Init-string-string-TessOcrEngineMode-TStringList-"></span><code>function <strong>Init</strong>(const datapath, language: string; oem: <a href="uTesseractTypes.html#TessOcrEngineMode">TessOcrEngineMode</a>; const configs: TStringList = nil) : boolean; overload;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Init-string-string-"></span><code>function <strong>Init</strong>(const datapath, language: string) : boolean; overload;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="InitForAnalysePage"></span><code>function <strong>InitForAnalysePage</strong>: boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Init only for page layout analysis. Use only for calls to SetImage and AnalysePage. Calls that attempt recognition will generate an error. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetLoadedLanguagesAsVector"></span><code>function <strong>GetLoadedLanguagesAsVector</strong>: TStringList;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Returns the loaded languages in the TStringList. Includes all languages loaded by the last Init, including those loaded as dependencies of other loaded languages. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetAvailableLanguagesAsVector"></span><code>function <strong>GetAvailableLanguagesAsVector</strong>: TStringList;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Returns the available languages in the sorted TStringList. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="IsLanguageLoaded-string-"></span><code>function <strong>IsLanguageLoaded</strong>(const aLanguage: string): Boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Returns true if a language is loaded. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="ReadConfigFile-string-"></span><code>function <strong>ReadConfigFile</strong>(const filename : string) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+
+
+<p>Read a &quot;config&quot; file containing a set of param, value pairs. Searches the standard places: tessdata/configs, tessdata/tessconfigs and also accepts a relative or absolute path name.
+
+<p>Note: only non-init params will be set (init params are set by Init()).
+
+<p></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="ReadDebugConfigFile-string-"></span><code>function <strong>ReadDebugConfigFile</strong>(const filename : string) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Same as above, but only set debug params from the given config file. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="TesseractRect-TStream-Integer-Integer-Integer-Integer-Integer-Integer-"></span><code>function <strong>TesseractRect</strong>(const imagedata: TStream; bytes_per_pixel, bytes_per_line, left, top, width, height: Integer) : string;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+
+
+<p>Recognize a rectangle from an image and return the result as a string. May be called many times for a single Init.
+
+<p>Currently has no error checking.
+
+<p>Greyscale of 8 and color of 24 or 32 bits per pixel may be given. Palette color images will not work properly and must be converted to 24 bit.
+
+<p>Binary images of 1 bit per pixel may also be given but they must be byte packed with the MSB of the first byte being the first pixel, and a 1 represents WHITE. For binary images set bytes_per_pixel=0. The recognized text is returned as a char* which is coded as a string.
+
+<p>Note that TesseractRect is the simplified convenience interface. For advanced uses, use SetImage, (optionally) SetRectangle, Recognize, and one or more of the Get*Text functions below.
+
+<p></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="ClearAdaptiveClassifier"></span><code>function <strong>ClearAdaptiveClassifier</strong>: boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Call between pages or documents etc to free up memory and forget adaptive data. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="SetImage-TStream-Integer-Integer-Integer-Integer-"></span><code>function <strong>SetImage</strong>(const imagedata: TStream; width, height, bytes_per_pixel, bytes_per_line: Integer) : boolean; overload;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+
+
+<p>Provide an image for Tesseract to recognize. Format is as TesseractRect above. Copies the image buffer and converts to Pix.
+
+<p>SetImage clears all recognition results, and sets the rectangle to the full image, so it may be followed immediately by a GetUTF8Text, and it will automatically perform recognition.
+
+<p></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="SetImage-TLeptonicaPix-"></span><code>function <strong>SetImage</strong>(const pix: <a href="uLeptonicaPix.TLeptonicaPix.html">TLeptonicaPix</a>) : boolean; overload;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+
+
+<p>Provide an image for Tesseract to recognize. As with SetImage above, Tesseract takes its own copy of the image, so it need not persist until after Recognize.
+
+<p>Pix vs raw, which to use? Use Pix where possible. Tesseract uses Pix as its internal representation and it is therefore more efficient to provide a Pix directly.
+
+<p></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="SetImage-string-"></span><code>function <strong>SetImage</strong>(const aFilename : string) : boolean; overload;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Provide an image for Tesseract to recognize. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="SetSourceResolution-Integer-"></span><code>function <strong>SetSourceResolution</strong>(ppi: Integer) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Set the resolution of the source image in pixels per inch so font size information can be calculated in results. Call this after SetImage(). </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="SetRectangle-Integer-Integer-Integer-Integer-"></span><code>function <strong>SetRectangle</strong>(left, top, width, height: Integer) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Restrict recognition to a sub-rectangle of the image. Call after SetImage. Each SetRectangle clears the recogntion results so multiple rectangles can be recognized with the same image. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetRegions-TLeptonicaPixClassArray-TRectArray-"></span><code>function <strong>GetRegions</strong>(var pixs : <a href="uLeptonicaPix.html#TLeptonicaPixClassArray">TLeptonicaPixClassArray</a>; var boxes : <a href="uLeptonicaTypes.html#TRectArray">TRectArray</a>) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Get the result of page layout analysis as a leptonica-style Boxa, Pixa pair, in reading order. Can be called before or after Recognize. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetTextlines-boolean-integer-TLeptonicaPixClassArray-TIntegerArray-TIntegerArray-TRectArray-"></span><code>function <strong>GetTextlines</strong>(raw_image: boolean; raw_padding: integer; var pixs : <a href="uLeptonicaPix.html#TLeptonicaPixClassArray">TLeptonicaPixClassArray</a>; var blockids, paraids : <a href="uLeptonicaTypes.html#TIntegerArray">TIntegerArray</a>; var boxes : <a href="uLeptonicaTypes.html#TRectArray">TRectArray</a>) : boolean; overload;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+
+
+<p>Get the textlines as a leptonica-style Boxa, Pixa pair, in reading order.
+
+<p>Can be called before or after Recognize.
+
+<p>If raw_image is true, then extract from the original image instead of the thresholded image and pad by raw_padding pixels.
+
+<p>If blockids is not nullptr, the block-id of each line is also returned as an array of one element per line.
+
+<p>If paraids is not nullptr, the paragraph-id of each line within its block is also returned as an array of one element per line.
+
+<p></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetTextlines-TLeptonicaPixClassArray-TIntegerArray-TRectArray-"></span><code>function <strong>GetTextlines</strong>(var pixs : <a href="uLeptonicaPix.html#TLeptonicaPixClassArray">TLeptonicaPixClassArray</a>; var blockids : <a href="uLeptonicaTypes.html#TIntegerArray">TIntegerArray</a>; var boxes : <a href="uLeptonicaTypes.html#TRectArray">TRectArray</a>) : boolean; overload;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Helper method to extract from the thresholded image. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetTextlines-TLeptonicaPixClassArray-TRectArray-"></span><code>function <strong>GetTextlines</strong>(var pixs : <a href="uLeptonicaPix.html#TLeptonicaPixClassArray">TLeptonicaPixClassArray</a>; var boxes : <a href="uLeptonicaTypes.html#TRectArray">TRectArray</a>) : boolean; overload;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Helper method to extract from the thresholded image. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetStrips-TLeptonicaPixClassArray-TIntegerArray-TRectArray-"></span><code>function <strong>GetStrips</strong>(var pixs : <a href="uLeptonicaPix.html#TLeptonicaPixClassArray">TLeptonicaPixClassArray</a>; var blockids : <a href="uLeptonicaTypes.html#TIntegerArray">TIntegerArray</a>; var boxes : <a href="uLeptonicaTypes.html#TRectArray">TRectArray</a>) : boolean; overload;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+
+
+<p>Get textlines and strips of image regions as a leptonica-style Boxa, Pixa pair, in reading order. Enables downstream handling of non-rectangular regions.
+
+<p>Can be called before or after Recognize.
+
+<p>If blockids is not nullptr, the block-id of each line is also returned as an array of one element per line.
+
+<p></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetStrips-TLeptonicaPixClassArray-TRectArray-"></span><code>function <strong>GetStrips</strong>(var pixs : <a href="uLeptonicaPix.html#TLeptonicaPixClassArray">TLeptonicaPixClassArray</a>; var boxes : <a href="uLeptonicaTypes.html#TRectArray">TRectArray</a>) : boolean; overload;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Helper method to get textlines and strips of image regions. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetWords-TLeptonicaPixClassArray-TRectArray-"></span><code>function <strong>GetWords</strong>(var pixs : <a href="uLeptonicaPix.html#TLeptonicaPixClassArray">TLeptonicaPixClassArray</a>; var boxes : <a href="uLeptonicaTypes.html#TRectArray">TRectArray</a>) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Get the words as a leptonica-style Boxa, Pixa pair, in reading order. Can be called before or after Recognize. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetConnectedComponents-TLeptonicaPixClassArray-TRectArray-"></span><code>function <strong>GetConnectedComponents</strong>(var pixs : <a href="uLeptonicaPix.html#TLeptonicaPixClassArray">TLeptonicaPixClassArray</a>; var boxes : <a href="uLeptonicaTypes.html#TRectArray">TRectArray</a>) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Gets the individual connected (text) components (created after pages segmentation step, but before recognition) as a leptonica-style Boxa, Pixa pair, in reading order. Can be called before or after Recognize. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetComponentImages-TessPageIteratorLevel-boolean-boolean-Integer-TLeptonicaPixClassArray-TIntegerArray-TIntegerArray-TRectArray-"></span><code>function <strong>GetComponentImages</strong>(level: <a href="uTesseractTypes.html#TessPageIteratorLevel">TessPageIteratorLevel</a>; text_only, raw_image: boolean; raw_padding: Integer; var pixs : <a href="uLeptonicaPix.html#TLeptonicaPixClassArray">TLeptonicaPixClassArray</a>; var blockids, paraids : <a href="uLeptonicaTypes.html#TIntegerArray">TIntegerArray</a>; var boxes : <a href="uLeptonicaTypes.html#TRectArray">TRectArray</a>) : boolean; overload;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+
+
+<p>Get the given level kind of components (block, textline, word etc.) as a leptonica-style Boxa, Pixa pair, in reading order.
+
+<p>Can be called before or after Recognize.
+
+<p>If blockids is not nullptr, the block-id of each component is also returned as an array of one element per component.
+
+<p>If blockids is not nullptr, the paragraph-id of each component with its block is also returned as an array of one element per component.
+
+<p>If raw_image is true, then portions of the original image are extracted instead of the thresholded image and padded with raw_padding.
+
+<p>If text_only is true, then only text components are returned.
+
+<p></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetComponentImages-TessPageIteratorLevel-boolean-TLeptonicaPixClassArray-TIntegerArray-TRectArray-"></span><code>function <strong>GetComponentImages</strong>(level: <a href="uTesseractTypes.html#TessPageIteratorLevel">TessPageIteratorLevel</a>; text_only: boolean; var pixs : <a href="uLeptonicaPix.html#TLeptonicaPixClassArray">TLeptonicaPixClassArray</a>; var blockids : <a href="uLeptonicaTypes.html#TIntegerArray">TIntegerArray</a>; var boxes : <a href="uLeptonicaTypes.html#TRectArray">TRectArray</a>) : boolean; overload;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Helper function to get binary images with no padding (most common usage). </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="AnalyseLayout"></span><code>function <strong>AnalyseLayout</strong>: <a href="uTesseractPageIterator.TTesseractPageIterator.html">TTesseractPageIterator</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+
+
+<p>Runs page layout analysis in the mode set by PageSegMode. May optionally be called prior to Recognize to get access to just the page layout results. Returns an iterator to the results.
+
+<p>If merge_similar_words is true, words are combined where suitable for use with a line recognizer. Use if you want to use AnalyseLayout to find the textlines, and then want to process textline fragments with an external line recognizer.
+
+<p>Returns nullptr on error or an empty page.
+
+<p>The returned iterator must be deleted after use.
+
+<p>WARNING! This class points to data held within the TessBaseAPI class, and therefore can only be used while the TessBaseAPI class still exists and has not been subjected to a call of Init, SetImage, Recognize, Clear, End DetectOS, or anything else that changes the internal PAGE_RES.
+
+<p></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Recognize-TTesseractMonitor-"></span><code>function <strong>Recognize</strong>(const monitor : <a href="uTesseractMonitor.TTesseractMonitor.html">TTesseractMonitor</a> = nil) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Recognize the image from SetAndThresholdImage, generating Tesseract internal structures. Optional. The Get*Text functions below will call Recognize if needed. After Recognize, the output is kept internally until the next SetImage. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="ProcessPages-string-string-Integer-TTesseractResultRenderer-"></span><code>function <strong>ProcessPages</strong>(const filename, retry_config: string; timeout_millisec: Integer; const renderer: <a href="uTesseractBaseAPI.TTesseractResultRenderer.html">TTesseractResultRenderer</a>) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+
+
+<p>Turns images into symbolic text.
+
+<p>filename can point to a single image, a multi-page TIFF, or a plain text list of image filenames.
+
+<p>retry_config is useful for debugging. If not nullptr, you can fall back to an alternate configuration if a page fails for some reason.
+
+<p>timeout_millisec terminates processing if any single page takes too long. Set to 0 for unlimited time.
+
+<p>renderer is responsible for creating the output. For example, use the TessTextRenderer if you want plaintext output, or the TessPDFRender to produce searchable PDF.
+
+<p>If tessedit_page_number is non-negative, will only process that single page. Works for multi-page tiff file, or filelist.
+
+<p>Returns true if successful, false on error.
+
+<p></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="ProcessPage-TLeptonicaPix-Integer-string-string-Integer-TTesseractResultRenderer-"></span><code>function <strong>ProcessPage</strong>(var pix: <a href="uLeptonicaPix.TLeptonicaPix.html">TLeptonicaPix</a>; page_index: Integer; const filename, retry_config: string; timeout_millisec: Integer; const renderer: <a href="uTesseractBaseAPI.TTesseractResultRenderer.html">TTesseractResultRenderer</a>) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+
+
+<p>Turn a single image into symbolic text.
+
+<p>The pix is the image processed. filename and page_index are metadata used by side-effect processes, such as reading a box file or formatting as hOCR.
+
+<p>See ProcessPages for descriptions of other parameters.
+
+<p></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetText"></span><code>function <strong>GetText</strong>: string;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ The recognized text is returned as a text string. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetUTF8Text"></span><code>function <strong>GetUTF8Text</strong>: UTF8String;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ The recognized text is returned as a UTF8 string. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetHOCRText-Integer-"></span><code>function <strong>GetHOCRText</strong>(page_number: Integer) : string;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Make a HTML-formatted string with hOCR markup from the internal data structures. page_number is 0-based but will appear in the output as 1-based. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetAltoText-Integer-"></span><code>function <strong>GetAltoText</strong>(page_number: Integer) : string;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Make an XML-formatted string with Alto markup from the internal data structures. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetPAGEText-Integer-"></span><code>function <strong>GetPAGEText</strong>(page_number: Integer) : string;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Make an XML-formatted string with PAGE markup from the internal data structures. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetTsvText-Integer-"></span><code>function <strong>GetTsvText</strong>(page_number: Integer) : string;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Make a TSV-formatted string from the internal data structures. page_number is 0-based but will appear in the output as 1-based. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetBoxText-Integer-"></span><code>function <strong>GetBoxText</strong>(page_number: Integer) : string;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ The recognized text is returned as a char* which is coded in the same format as a box file used in training. Constructs coordinates in the original image - not just the rectangle. page_number is a 0-based page index that will appear in the box file. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetLSTMBoxText-Integer-"></span><code>function <strong>GetLSTMBoxText</strong>(page_number: Integer) : string;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Make a box file for LSTM training from the internal data structures. Constructs coordinates in the original image - not just the rectangle. page_number is a 0-based page index that will appear in the box file. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetWordStrBoxText-Integer-"></span><code>function <strong>GetWordStrBoxText</strong>(page_number: Integer) : string;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ The recognized text is returned as a char* which is coded in the same format as a WordStr box file used in training. page_number is a 0-based page index that will appear in the box file. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetUNLVText"></span><code>function <strong>GetUNLVText</strong>: string;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ The recognized text is returned as a char* which is coded as UNLV format Latin-1 with specific reject and suspect codes. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="MeanTextConf"></span><code>function <strong>MeanTextConf</strong>: integer;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Returns the (average) confidence value between 0 and 100. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="AllWordConfidences-TIntegerArray-"></span><code>function <strong>AllWordConfidences</strong>(var confidences : <a href="uLeptonicaTypes.html#TIntegerArray">TIntegerArray</a>) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Returns all word confidences (between 0 and 100) in an array. The number of confidences should correspond to the number of space- delimited words in GetUTF8Text. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="AdaptToWordStr-TessPageSegMode-string-"></span><code>function <strong>AdaptToWordStr</strong>(mode: <a href="uTesseractTypes.html#TessPageSegMode">TessPageSegMode</a>; const wordstr: string) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+
+
+<p>Applies the given word to the adaptive classifier if possible. The word must be SPACE-DELIMITED UTF-8 - l i k e t h i s , so it can tell the boundaries of the graphemes.
+
+<p>Assumes that SetImage/SetRectangle have been used to set the image to the given word. The mode arg should be PSM_SINGLE_WORD or PSM_CIRCLE_WORD, as that will be used to control layout analysis.
+
+<p>The currently set PageSegMode is preserved.
+
+<p>Returns false if adaption was not possible for some reason.
+
+<p></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Clear"></span><code>procedure <strong>Clear</strong>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Free up recognition results and any stored image data, without actually freeing any recognition data that would be time-consuming to reload. Afterwards, you must call SetImage or TesseractRect before doing any Recognize or Get* operation. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="End_"></span><code>procedure <strong>End_</strong>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+
+
+<p>Close down tesseract and free up all memory. End() is equivalent to destructing and reconstructing your TessBaseAPI.
+
+<p>Once End() has been used, none of the other API functions may be used other than Init and anything declared above it in the class definition.
+
+<p></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="IsValidWord-string-"></span><code>function <strong>IsValidWord</strong>(const word : string) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+
+
+<p>Check whether a word is valid according to Tesseract's language model.
+
+<p>Returns 0 if the word is invalid, non-zero if valid.
+
+<p>Warning temporary! This function will be removed from here and placed in a separate API at some future time.
+
+<p></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetTextDirection-Integer-single-"></span><code>function <strong>GetTextDirection</strong>(out out_offset: Integer; out out_slope: single) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Calculate offset and slope in Tesseract coordinates. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetUnichar-Integer-"></span><code>function <strong>GetUnichar</strong>(unichar_id: Integer): string;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ This method returns the string form of the specified unichar. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="ClearPersistentCache"></span><code>procedure <strong>ClearPersistentCache</strong>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Clear any library-level memory caches. There are a variety of expensive-to-load constant data structures (mostly language dictionaries) that are cached globally &ndash; surviving the Init() and End() of individual TessBaseAPI's. This function allows the clearing of these caches. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="DetectOrientationScript-Integer-Single-string-Single-"></span><code>function <strong>DetectOrientationScript</strong>(out orient_deg: Integer; out orient_conf: Single; out script_name: string; out script_conf: Single) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Detect the orientation of the input image and apparent script (alphabet). orient_deg is the detected clockwise rotation of the input image in degrees (0, 90, 180, 270) orient_conf is the confidence (15.0 is reasonably confident) script_name is an ASCII string, the name of the script, e.g. &quot;Latin&quot; script_conf is confidence level in the script Returns true on success and writes values to each parameter as an output </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="SetMinOrientationMargin-double-"></span><code>procedure <strong>SetMinOrientationMargin</strong>(margin: double);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Min acceptable orientation margin (difference in scores between top and 2nd choice in OSResults::orientations) to believe the page orientation. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="NumDawgs"></span><code>function <strong>NumDawgs</strong>: integer;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Return the number of dawgs loaded into tesseract_ object. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Oem"></span><code>function <strong>Oem</strong>: <a href="uTesseractTypes.html#TessOcrEngineMode">TessOcrEngineMode</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Last ocr language mode requested. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetBlockTextOrientations-TIntegerArray-TBooleanArray-"></span><code>function <strong>GetBlockTextOrientations</strong>(var block_orientation: <a href="uLeptonicaTypes.html#TIntegerArray">TIntegerArray</a>; var vertical_writing: <a href="uLeptonicaTypes.html#TBooleanArray">TBooleanArray</a>) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+
+
+<p>Return text orientation of each block as determined in an earlier page layout analysis operation. Orientation is returned as the number of ccw 90-degree rotations (in [0..3]) required to make the text in the block upright (readable). Note that this may not necessary be the block orientation preferred for recognition (such as the case of vertical CJK text).
+
+<p>Also returns whether the text in the block is believed to have vertical writing direction (when in an upright page orientation).
+
+<p>The returned array is of length equal to the number of text blocks, which may be less than the total number of blocks. The ordering is intended to be consistent with GetTextLines().
+
+<p></p>
+</td></tr>
+</table>
+<h3 class="detail">Properties</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Handle"></span><code>property <strong>Handle</strong>                      : <a href="uTesseractTypes.html#TessBaseAPI">TessBaseAPI</a>               read FHandle;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Initialized"></span><code>property <strong>Initialized</strong>                 : boolean                   read GetInitialized;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Returns true when this instance is fully initialized. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Version"></span><code>property <strong>Version</strong>                     : string                    read GetVersion;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Returns the version identifier as a static string. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="InputName"></span><code>property <strong>InputName</strong>                   : string                    read GetInputName                               write SetInputName;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Set the name of the input file. Needed for training and reading a UNLV zone file, and for searchable PDF output. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="InputImage"></span><code>property <strong>InputImage</strong>                  : <a href="uLeptonicaPix.TLeptonicaPix.html">TLeptonicaPix</a>             read GetInputImage                              write SetInputImage;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Input pix. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="SourceYResolution"></span><code>property <strong>SourceYResolution</strong>           : integer                   read GetSourceYResolution;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Datapath"></span><code>property <strong>Datapath</strong>                    : string                    read GetDatapath;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Path to the tessdata directory. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="OutputName"></span><code>property <strong>OutputName</strong>                  : string                    write SetOutputName;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Set the name of the bonus output files. Needed only for debugging. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="InitLanguagesAsString"></span><code>property <strong>InitLanguagesAsString</strong>       : string                    read GetInitLanguagesAsString;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Returns the languages string used in the last valid initialization. If the last initialization specified &quot;deu+hin&quot; then that will be returned. If hin loaded eng automatically as well, then that will not be included in this list. To find the languages actually loaded use GetLoadedLanguagesAsVector. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="PageSegMode"></span><code>property <strong>PageSegMode</strong>                 : <a href="uTesseractTypes.html#TessPageSegMode">TessPageSegMode</a>           read GetPageSegMode                             write SetPageSegMode;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Set the current page segmentation mode. Defaults to PSM_SINGLE_BLOCK. The mode is stored as an IntParam so it can also be modified by ReadConfigFile or SetVariable(&quot;tessedit_pageseg_mode&quot;, mode as string). </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="ThresholdedImage"></span><code>property <strong>ThresholdedImage</strong>            : <a href="uLeptonicaPix.TLeptonicaPix.html">TLeptonicaPix</a>             read GetThresholdedImage;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Get a copy of the internal thresholded image from Tesseract. Caller takes ownership of the Pix and must pixDestroy it. May be called any time after SetImage, or after TesseractRect. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Gradient"></span><code>property <strong>Gradient</strong>                    : single                    read GetGradient;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Return average gradient of lines on page. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="ThresholdedImageScaleFactor"></span><code>property <strong>ThresholdedImageScaleFactor</strong> : integer                   read GetThresholdedImageScaleFactor;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Returns the scale factor of the thresholded image that would be returned by GetThresholdedImage() and the various GetX() methods that call GetComponentImages(). Returns 0 if no thresholder has been set. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Iterator"></span><code>property <strong>Iterator</strong>                    : <a href="uTesseractResultIterator.TTesseractResultIterator.html">TTesseractResultIterator</a>  read GetIterator;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Get a reading-order iterator to the results of LayoutAnalysis and/or Recognize. The returned iterator must be deleted after use. WARNING! This class points to data held within the TessBaseAPI class, and therefore can only be used while the TessBaseAPI class still exists and has not been subjected to a call of Init, SetImage, Recognize, Clear, End DetectOS, or anything else that changes the internal PAGE_RES. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="ErrorMessage"></span><code>property <strong>ErrorMessage</strong>                : string                    read FErrorMessage;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Error message if there's an issue initializing this class. </p>
+</td></tr>
+</table>
+<hr><span class="appinfo"><em>Generated by <a href="https://pasdoc.github.io/">PasDoc 0.17.0.snapshot</a>. </em>
+</span>
+</body></html>

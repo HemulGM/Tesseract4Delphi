@@ -1,0 +1,15 @@
+{
+  "UpdateLazPackages" : [
+    {
+      "ForceNotify" : true,
+      "InternalVersion" : 1,
+      "Name" : "virtualtouchkeyboard4delphi.lpk",
+      "Version" : "1.0.0"
+    }
+  ],
+  "UpdatePackageData" : {
+    "DisableInOPM" : false,
+    "DownloadZipURL" : "https://github.com/salvadordf/Tesseract4Delphi/archive/refs/heads/main.zip",
+    "Name" : "Tesseract4Delphi"
+  }
+}

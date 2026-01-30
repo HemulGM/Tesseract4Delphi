@@ -1,0 +1,82 @@
+[OPTIONS]
+Binary TOC=Yes
+Compatibility=1.1 or later
+Compiled file=tesseract4delphi.chm
+Contents file=tesseract4delphi.hhc
+Default Window=Default
+Default topic=AllUnits.html
+Display compile progress=Yes
+Error log file=tesseract4delphi.log
+Full-text search=Yes
+Index file=tesseract4delphi.hhk
+Title=tesseract4delphi
+
+[WINDOWS]
+Default="tesseract4delphi","tesseract4delphi.hhc","tesseract4delphi.hhk",,,,,,,0x23520,,0x300e,,,,,,,,0
+
+[FILES]
+Legend.html
+AllUnits.html
+ClassHierarchy.html
+AllClasses.html
+AllTypes.html
+AllVariables.html
+AllConstants.html
+AllFunctions.html
+AllIdentifiers.html
+uLeptonicaBox.html
+uLeptonicaBox.TLeptonicaBox.html
+uLeptonicaBoxArray.html
+uLeptonicaBoxArray.TLeptonicaBoxArray.html
+uLeptonicaConstants.html
+uLeptonicaLibFunctions.html
+uLeptonicaLoader.html
+uLeptonicaLoader.TLeptonicaLoader.html
+uLeptonicaMiscFunctions.html
+uLeptonicaPix.html
+uLeptonicaPix.TLeptonicaPix.html
+uLeptonicaPixArray.html
+uLeptonicaPixArray.TLeptonicaPixArray.html
+uLeptonicaTypes.html
+uLeptonicaTypes.TPixColormap.html
+uLeptonicaTypes.TRGBA_Quad.html
+uLeptonicaTypes.TPix.html
+uLeptonicaTypes.TBox.html
+uLeptonicaTypes.TBoxa.html
+uLeptonicaTypes.TPixa.html
+uTesseractBaseAPI.html
+uTesseractBaseAPI.TTesseractBaseAPI.html
+uTesseractBaseAPI.TTesseractResultRenderer.html
+uTesseractBaseAPI.TTesseractTextRenderer.html
+uTesseractBaseAPI.TTesseractHOcrRenderer.html
+uTesseractBaseAPI.TTesseractAltoRenderer.html
+uTesseractBaseAPI.TTesseractPAGERenderer.html
+uTesseractBaseAPI.TTesseractTsvRenderer.html
+uTesseractBaseAPI.TTesseractPDFRenderer.html
+uTesseractBaseAPI.TTesseractUnlvRenderer.html
+uTesseractBaseAPI.TTesseractBoxTextRenderer.html
+uTesseractBaseAPI.TTesseractLSTMBoxRenderer.html
+uTesseractBaseAPI.TTesseractWordStrBoxRenderer.html
+uTesseractChoiceIterator.html
+uTesseractChoiceIterator.TTesseractChoiceIterator.html
+uTesseractConstants.html
+uTesseractIntegerArray.html
+uTesseractIntegerArray.TTesseractIntegerArray.html
+uTesseractLibFunctions.html
+uTesseractLoader.html
+uTesseractLoader.TTesseractLoader.html
+uTesseractMiscFunctions.html
+uTesseractMonitor.html
+uTesseractMonitor.TTesseractMonitor.html
+uTesseractOCR.html
+uTesseractOCR.TTesseractOCR.html
+uTesseractPageIterator.html
+uTesseractPageIterator.TTesseractPageIterator.html
+uTesseractResultIterator.html
+uTesseractResultIterator.TTesseractResultIterator.html
+uTesseractTypes.html
+uTesseractTypes.EANYCODE_CHAR.html
+
+[INFOTYPES]
+
+[MERGE FILES]

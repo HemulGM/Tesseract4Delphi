@@ -1,0 +1,57 @@
+package Tesseract4Delphi;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS ON}
+{$RANGECHECKS ON}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl;
+
+contains
+  uLeptonicaTypes in '..\source\uLeptonicaTypes.pas',
+  uLeptonicaConstants in '..\source\uLeptonicaConstants.pas',
+  uLeptonicaLibFunctions in '..\source\uLeptonicaLibFunctions.pas',
+  uLeptonicaLoader in '..\source\uLeptonicaLoader.pas',
+  uLeptonicaMiscFunctions in '..\source\uLeptonicaMiscFunctions.pas',
+  uLeptonicaPix in '..\source\uLeptonicaPix.pas',
+  uTesseractConstants in '..\source\uTesseractConstants.pas',
+  uTesseractTypes in '..\source\uTesseractTypes.pas',
+  uTesseractLibFunctions in '..\source\uTesseractLibFunctions.pas',
+  uTesseractLoader in '..\source\uTesseractLoader.pas',
+  uTesseractMiscFunctions in '..\source\uTesseractMiscFunctions.pas',
+  uTesseractPageIterator in '..\source\uTesseractPageIterator.pas',
+  uTesseractResultIterator in '..\source\uTesseractResultIterator.pas',
+  uTesseractChoiceIterator in '..\source\uTesseractChoiceIterator.pas',
+  uTesseractBaseAPI in '..\source\uTesseractBaseAPI.pas',
+  uLeptonicaBox in '..\source\uLeptonicaBox.pas',
+  uLeptonicaBoxArray in '..\source\uLeptonicaBoxArray.pas',
+  uLeptonicaPixArray in '..\source\uLeptonicaPixArray.pas',
+  uTesseractIntegerArray in '..\source\uTesseractIntegerArray.pas',
+  uTesseractMonitor in '..\source\uTesseractMonitor.pas',
+  uTesseractOCR in '..\source\uTesseractOCR.pas',
+  Tesseract4Delphi_register in 'Tesseract4Delphi_register.pas';
+
+end.

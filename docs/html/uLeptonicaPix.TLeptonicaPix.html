@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>tesseract4delphi: uLeptonicaPix: Class TLeptonicaPix</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="PasDoc 0.17.0.snapshot">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="StyleSheet" type="text/css" href="pasdoc.css">
+</head>
+<body>
+<span id="TLeptonicaPix"></span><h1 class="cio">Class TLeptonicaPix</h1>
+<div class="sections">
+<div class="one_section"><a class="section" href="#PasDoc-Description">Description</a></div><div class="one_section"><a class="section" href="#PasDoc-Hierarchy">Hierarchy</a></div><div class="one_section"><a class="section" href="#PasDoc-Fields">Fields</a></div><div class="one_section"><a class="section" href="#PasDoc-Methods">Methods</a></div><div class="one_section"><a class="section" href="#PasDoc-Properties">Properties</a></div></div>
+<span id="PasDoc-Description"></span><h2 class="unit">Unit</h2>
+<p class="unitlink">
+<a href="uLeptonicaPix.html">uLeptonicaPix</a></p>
+<h2 class="declaration">Declaration</h2>
+<p class="declaration">
+<code>type TLeptonicaPix = class(TObject)</code></p>
+<h2 class="description">Description</h2>
+<p>
+ Basic Pix </p>
+<p>
+
+
+<p>&lt;see href=&quot;<a href="https://github.com/DanBloomberg/leptonica/blob/master/src/pix_internal.h">https://github.com/DanBloomberg/leptonica/blob/master/src/pix_internal.h</a>&quot;&gt;Leptonica source file: /src/pix_internal.h (Pix))</p>
+<span id="PasDoc-Hierarchy"></span><h2 class="hierarchy">Hierarchy</h2>
+<ul class="hierarchy"><li class="ancestor">TObject</li>
+<li class="thisitem">TLeptonicaPix</li></ul><h2 class="overview">Overview</h2>
+<span id="PasDoc-Fields"></span><h3 class="summary">Fields</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code><strong><a href="uLeptonicaPix.TLeptonicaPix.html#FPix">FPix</a></strong>: <a href="uLeptonicaTypes.html#PPix">PPix</a>;</code></td>
+</tr>
+</table>
+<span id="PasDoc-Methods"></span><h3 class="summary">Methods</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code>function <strong><a href="uLeptonicaPix.TLeptonicaPix.html#GetInitialized">GetInitialized</a></strong>: boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="uLeptonicaPix.TLeptonicaPix.html#DestroyPix">DestroyPix</a></strong>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>constructor <strong><a href="uLeptonicaPix.TLeptonicaPix.html#Create-string-">Create</a></strong>(const aFileName : string); overload;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>constructor <strong><a href="uLeptonicaPix.TLeptonicaPix.html#Create-Pointer-NativeUInt-">Create</a></strong>(aBuffer : Pointer; aSize : NativeUInt); overload;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>constructor <strong><a href="uLeptonicaPix.TLeptonicaPix.html#Create-TStream-">Create</a></strong>(const aStream : TStream); overload;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>constructor <strong><a href="uLeptonicaPix.TLeptonicaPix.html#Create-PPix-">Create</a></strong>(const aPix : <a href="uLeptonicaTypes.html#PPix">PPix</a>); overload;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>destructor <strong><a href="uLeptonicaPix.TLeptonicaPix.html#Destroy">Destroy</a></strong>; override;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uLeptonicaPix.TLeptonicaPix.html#Deskew-integer-">Deskew</a></strong>(redsearch : integer = <a href="uLeptonicaConstants.html#DEFAULT_REDUCTION_FACTOR">DEFAULT_REDUCTION_FACTOR</a>) : <a href="uLeptonicaPix.TLeptonicaPix.html">TLeptonicaPix</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uLeptonicaPix.TLeptonicaPix.html#DeskewImage">DeskewImage</a></strong>: boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uLeptonicaPix.TLeptonicaPix.html#SaveImageAsStream-TStream-TLeptonicaImageFormat-">SaveImageAsStream</a></strong>(var aStream : TStream; aFormat : <a href="uLeptonicaTypes.html#TLeptonicaImageFormat">TLeptonicaImageFormat</a> = <a href="uLeptonicaTypes.html#IFF_BMP">IFF_BMP</a>): boolean;</code></td>
+</tr>
+</table>
+<span id="PasDoc-Properties"></span><h3 class="summary">Properties</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uLeptonicaPix.TLeptonicaPix.html#Initialized">Initialized</a></strong>   : boolean   read <a href="uLeptonicaPix.TLeptonicaPix.html#GetInitialized">GetInitialized</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uLeptonicaPix.TLeptonicaPix.html#Pix">Pix</a></strong>           : <a href="uLeptonicaTypes.html#PPix">PPix</a>      read <a href="uLeptonicaPix.TLeptonicaPix.html#FPix">FPix</a>;</code></td>
+</tr>
+</table>
+<h2 class="description">Description</h2>
+<h3 class="detail">Fields</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="FPix"></span><code><strong>FPix</strong>: <a href="uLeptonicaTypes.html#PPix">PPix</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<h3 class="detail">Methods</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="GetInitialized"></span><code>function <strong>GetInitialized</strong>: boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="DestroyPix"></span><code>procedure <strong>DestroyPix</strong>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Create-string-"></span><code>constructor <strong>Create</strong>(const aFileName : string); overload;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Create the pix using a file. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Create-Pointer-NativeUInt-"></span><code>constructor <strong>Create</strong>(aBuffer : Pointer; aSize : NativeUInt); overload;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Create the pix using the data in a memory buffer. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Create-TStream-"></span><code>constructor <strong>Create</strong>(const aStream : TStream); overload;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Create the pix using the data in a stream. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Create-PPix-"></span><code>constructor <strong>Create</strong>(const aPix : <a href="uLeptonicaTypes.html#PPix">PPix</a>); overload;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Create the pix using an existing PPix. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Destroy"></span><code>destructor <strong>Destroy</strong>; override;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Deskew-integer-"></span><code>function <strong>Deskew</strong>(redsearch : integer = <a href="uLeptonicaConstants.html#DEFAULT_REDUCTION_FACTOR">DEFAULT_REDUCTION_FACTOR</a>) : <a href="uLeptonicaPix.TLeptonicaPix.html">TLeptonicaPix</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+
+
+<p>This binarizes if necessary and finds the skew angle. If the angle is large enough and there is sufficient confidence, it returns a deskewed image; otherwise, it returns a clone.
+
+<p>Typical values at 300 ppi for %redsearch are 2 and 4.
+
+<p>At 75 ppi, one should use %redsearch = 1.
+
+<p></p>
+<p>
+ 
+
+<p>&lt;see href=&quot;<a href="https://github.com/DanBloomberg/leptonica/blob/master/src/skew.c">https://github.com/DanBloomberg/leptonica/blob/master/src/skew.c</a>&quot;&gt;Leptonica source file: /src/skew.c (pixDeskew))</p>
+<h6 class="description_section">Parameters</h6>
+<dl class="parameters">
+<dt>redsearch</dt>
+<dd>for binary search: reduction factor = 1, 2 or 4; use 0 for default.</dd>
+</dl>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="DeskewImage"></span><code>function <strong>DeskewImage</strong>: boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Calls Deskew and replaces the Pix of this instance. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="SaveImageAsStream-TStream-TLeptonicaImageFormat-"></span><code>function <strong>SaveImageAsStream</strong>(var aStream : TStream; aFormat : <a href="uLeptonicaTypes.html#TLeptonicaImageFormat">TLeptonicaImageFormat</a> = <a href="uLeptonicaTypes.html#IFF_BMP">IFF_BMP</a>): boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Save the image as a stream. </p>
+</td></tr>
+</table>
+<h3 class="detail">Properties</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Initialized"></span><code>property <strong>Initialized</strong>   : boolean   read <a href="uLeptonicaPix.TLeptonicaPix.html#GetInitialized">GetInitialized</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Returns true when the TLeptonicaPix instance is fully initialized. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Pix"></span><code>property <strong>Pix</strong>           : <a href="uLeptonicaTypes.html#PPix">PPix</a>      read <a href="uLeptonicaPix.TLeptonicaPix.html#FPix">FPix</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Pix pointer with all the image properties. </p>
+</td></tr>
+</table>
+<hr><span class="appinfo"><em>Generated by <a href="https://pasdoc.github.io/">PasDoc 0.17.0.snapshot</a>. </em>
+</span>
+</body></html>

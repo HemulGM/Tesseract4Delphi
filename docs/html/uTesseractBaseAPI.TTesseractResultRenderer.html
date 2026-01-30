@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>tesseract4delphi: uTesseractBaseAPI: Class TTesseractResultRenderer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="PasDoc 0.17.0.snapshot">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="StyleSheet" type="text/css" href="pasdoc.css">
+</head>
+<body>
+<span id="TTesseractResultRenderer"></span><h1 class="cio">Class TTesseractResultRenderer</h1>
+<div class="sections">
+<div class="one_section"><a class="section" href="#PasDoc-Description">Description</a></div><div class="one_section"><a class="section" href="#PasDoc-Hierarchy">Hierarchy</a></div><div class="one_section">Fields</div><div class="one_section"><a class="section" href="#PasDoc-Methods">Methods</a></div><div class="one_section"><a class="section" href="#PasDoc-Properties">Properties</a></div></div>
+<span id="PasDoc-Description"></span><h2 class="unit">Unit</h2>
+<p class="unitlink">
+<a href="uTesseractBaseAPI.html">uTesseractBaseAPI</a></p>
+<h2 class="declaration">Declaration</h2>
+<p class="declaration">
+<code>type TTesseractResultRenderer = class(TObject)</code></p>
+<h2 class="description">Description</h2>
+<p>
+
+
+<p>Interface for rendering tesseract results into a document, such as text, HOCR or pdf. This class is abstract. Specific classes handle individual formats. This interface is then used to inject the renderer class into tesseract when processing images.
+
+<p>For simplicity implementing this with tesseract version 3.01, the renderer contains document state that is cleared from document to document just as the TessBaseAPI is. This way the base API can just delegate its rendering functionality to injected renderers, and the renderers can manage the associated state needed for the specific formats in addition to the heuristics for producing it.
+
+<p></p>
+<span id="PasDoc-Hierarchy"></span><h2 class="hierarchy">Hierarchy</h2>
+<ul class="hierarchy"><li class="ancestor">TObject</li>
+<li class="thisitem">TTesseractResultRenderer</li></ul><h2 class="overview">Overview</h2>
+<span id="PasDoc-Methods"></span><h3 class="summary">Methods</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>constructor <strong><a href="uTesseractBaseAPI.TTesseractResultRenderer.html#Create-TessResultRenderer-">Create</a></strong>(aHandle : <a href="uTesseractTypes.html#TessResultRenderer">TessResultRenderer</a>);</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>destructor <strong><a href="uTesseractBaseAPI.TTesseractResultRenderer.html#Destroy">Destroy</a></strong>; override;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractResultRenderer.html#Insert-TTesseractResultRenderer-">Insert</a></strong>(const next: <a href="uTesseractBaseAPI.TTesseractResultRenderer.html">TTesseractResultRenderer</a>) : boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractResultRenderer.html#Next">Next</a></strong>: <a href="uTesseractBaseAPI.TTesseractResultRenderer.html">TTesseractResultRenderer</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractResultRenderer.html#BeginDocument-string-">BeginDocument</a></strong>(const title : string) : boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractResultRenderer.html#AddImage-TTesseractBaseAPI-">AddImage</a></strong>(const api : <a href="uTesseractBaseAPI.TTesseractBaseAPI.html">TTesseractBaseAPI</a>) : boolean;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractResultRenderer.html#EndDocument">EndDocument</a></strong>: boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractResultRenderer.html#FileExtension">FileExtension</a></strong>: string;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractResultRenderer.html#Title">Title</a></strong>: string;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="uTesseractBaseAPI.TTesseractResultRenderer.html#ImageNum">ImageNum</a></strong>: integer;</code></td>
+</tr>
+</table>
+<span id="PasDoc-Properties"></span><h3 class="summary">Properties</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uTesseractBaseAPI.TTesseractResultRenderer.html#Handle">Handle</a></strong>       : <a href="uTesseractTypes.html#TessResultRenderer">TessResultRenderer</a>  read FHandle;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="uTesseractBaseAPI.TTesseractResultRenderer.html#Initialized">Initialized</a></strong>  : boolean             read GetInitialized;</code></td>
+</tr>
+</table>
+<h2 class="description">Description</h2>
+<h3 class="detail">Methods</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Create-TessResultRenderer-"></span><code>constructor <strong>Create</strong>(aHandle : <a href="uTesseractTypes.html#TessResultRenderer">TessResultRenderer</a>);</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Destroy"></span><code>destructor <strong>Destroy</strong>; override;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Insert-TTesseractResultRenderer-"></span><code>function <strong>Insert</strong>(const next: <a href="uTesseractBaseAPI.TTesseractResultRenderer.html">TTesseractResultRenderer</a>) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Takes ownership of pointer so must be new'd instance. Renderers aren't ordered, but appends the sequences of next parameter and existing next(). The renderers should be unique across both lists. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Next"></span><code>function <strong>Next</strong>: <a href="uTesseractBaseAPI.TTesseractResultRenderer.html">TTesseractResultRenderer</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Returns the next renderer or nullptr. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="BeginDocument-string-"></span><code>function <strong>BeginDocument</strong>(const title : string) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Starts a new document with the given title. This clears the contents of the output data. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="AddImage-TTesseractBaseAPI-"></span><code>function <strong>AddImage</strong>(const api : <a href="uTesseractBaseAPI.TTesseractBaseAPI.html">TTesseractBaseAPI</a>) : boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+
+
+<p>Adds the recognized text from the source image to the current document. Invalid if BeginDocument not yet called.
+
+<p>Note that this API is a bit weird but is designed to fit into the current TessBaseAPI implementation where the api has lots of state information that we might want to add in.
+
+<p></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="EndDocument"></span><code>function <strong>EndDocument</strong>: boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Finishes the document and finalizes the output data Invalid if BeginDocument not yet called. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="FileExtension"></span><code>function <strong>FileExtension</strong>: string;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ file extension to be used for output files. For example &quot;pdf&quot; will produce a .pdf file, and &quot;hocr&quot; will produce .hocr files. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Title"></span><code>function <strong>Title</strong>: string;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="ImageNum"></span><code>function <strong>ImageNum</strong>: integer;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+
+
+<p>Returns the index of the last image given to AddImage (i.e. images are incremented whether the image succeeded or not)
+
+<p>This is always defined. It means either the number of the current image, the last image ended, or in the completed document depending on when in the document lifecycle you are looking at it.
+
+<p>Will return -1 if a document was never started.
+
+<p></p>
+</td></tr>
+</table>
+<h3 class="detail">Properties</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Handle"></span><code>property <strong>Handle</strong>       : <a href="uTesseractTypes.html#TessResultRenderer">TessResultRenderer</a>  read FHandle;</code></td>
+</tr>
+<tr><td colspan="2">
+<p class="nodescription">This item has no description.</p></td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Initialized"></span><code>property <strong>Initialized</strong>  : boolean             read GetInitialized;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Returns true when this instance is fully initialized. </p>
+</td></tr>
+</table>
+<hr><span class="appinfo"><em>Generated by <a href="https://pasdoc.github.io/">PasDoc 0.17.0.snapshot</a>. </em>
+</span>
+</body></html>
